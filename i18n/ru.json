@@ -1,0 +1,965 @@
+{
+   "GLOBAL" : {
+      "CANCEL"    : "Отменить",
+      "CHECK"     : "Проверить",
+      "CONFIRM"   : "Подтвердить",
+      "CONTINUE"  : "Продолжить",
+      "DOWNLOAD"  : "Скачать",
+      "SAVE"      : "Сохранить",
+      "ADD"       : "Добавить",
+      "OK"        : "OK",
+      "AUTH_IMPORTANT_TITLE" : {
+         "IMPORTANT"             : "Важно!",
+         "CHECK_ADDRESS_TO_BE"   : "Проверьте, чтобы адрес был",
+         "SECURE_TITLE"          : "secure"
+      },
+      "UNKNOWN"   : "Нет информации",
+      "TOASTERS": {
+        "ERROR": "Ошибка!",
+        "SUCCESS": "Успешно!",
+        "WARNING": "Предупреждение!"
+      }
+   },
+   "BREADCRUMBS" : {
+      "DASHBOARD"          : "Управление",
+      "MARKET" :
+      {
+         "MAIN"            : "Маркет",
+         "PAGE_2"          : "Покупка ",
+         "PAGE_3"          : "",
+         "PAGE_4"          : "Новая сделка"
+      },
+      "DIRECTIONS" :
+      {
+         "MAIN"            : "Направления",
+         "PAGE_CREATE"     : "Создание",
+         "PAGE_EDIT"       : "Редактирование"
+      },
+      "PAYMENTS"           : "Кошельки",
+      "PROFILE"            : "Настройки",
+      "PROFILE_USER"       : "Профиль",
+      "DEALS" :
+      {
+         "MAIN"            : "Сделки",
+         "DEAL_NUMBER"     : "Сделка #"
+      },
+      "UI_KIT"             : "UI-кит"
+   },
+   "TABS" : {
+      "ACTIVE" : "Активные сделки",
+      "CLOSED" : "Завершенные сделки",
+      "NEW"    : "Новые сделки"
+   },
+   "TOOLTIPS" : {
+      "SETTINGS"              : "Настройки",
+      "NOTIFICATIONS"         : "Уведомления",
+      "PROFILE"               : "Профиль",
+      "EDIT_SECTION"          : "Редактировать раздел",
+      "ADD_NEW_CARD"          : "Добавить новую карту",
+      "ADD_NEW_WALLET"        : "Добавить новый кошелек",
+      "BALANCE_NOT_CONFIRMED" : "Не подтвержденный баланс",
+      "DELETE_WALLET"         : "Удалить кошелек",
+      "ADD_WALLET"            : "Добавить кошелек",
+      "CARDS_CONTROL"         : "Управление картами",
+      "WALLET_CONTROL"        : "Управление кошельком",
+      "PAYMENT_CONTROL"       : "Управление платежной системой",
+      "EDIT"                  : "Редактировать",
+      "DELETE"                : "Удалить"
+   },
+   "PLACEHOLDERS" : {
+      "EXAMPLE_MAIL"          : "example@email.com",
+      "CARD_HOLDER"           : "Иванов Сергей",
+      "CARD_NAME"             : "Для биткоина",
+      "PSA_NAME"              : "Для биткоина",
+      "TEXT"                  : "Текст сообщения",
+      "ADDITIONAL_INFO"       : "Введите текст дополнительной информации",
+      "WALLET_ADDRES"         : "Your wallet address",
+      "PUBLIC_KEY"            : "Your public key",
+      "KEY"                   : "3LVGbddKk3uKhqfGKz7X7n6dTZbEHE832y",
+      "DEFAULT_SEARCH"        : "Поиск",
+      "CHOOSE_WALLET"         : "Выберите кошелек",
+      "CHOOSE_BANK"           : "Выберите банк",
+      "CHOOSE_TYPE"           : "Выберите тип оплаты",
+      "CHOOSE_WALLET_ADDRES"  : "Выберите адрес кошелька",
+      "CHOOSE_CARD"           : "Выберите карту",
+      "CHOOSE_CURRENCY"       : "Выберите валюту",
+      "CHOOSE_CRYPTO"         : "Выберите криптовалюту",
+      "CHOOSE_PAYMENT"        : "Выберите платежную систему",
+      "TYPE_CRYPTO"           : "Криптовалюта",
+      "TYPE_FIAT"             : "Фиатные деньги",
+      "TYPE_BANKS"            : "Банки"
+
+   },
+   "UI_FOOTER" : {
+      "LANG_TITLE"   : "Язык:",
+      "LANG_VALUE"   : "Русский",
+      "FAQ"          : "FAQ",
+      "TERMS_OF_USE" : "Пользовательское соглашение"
+   },
+   "UI_HEADER_MAIN" : {
+      "NOTIFICATIONS_HEADER" : "Уведомления",
+      "INFO_BLOCK_LINK"      : "Перейти",
+      "PROFILE_BUTTON"       : "Профиль",
+      "LOGOUT_BUTTON"        : "Выйти"
+   },
+   "UI_NAVBAR" : {
+      "EMPORIUM"        : "EMPORIUM",
+      "DASHBOARD_LINK"  : "Управление",
+      "MARKET_LINK"     : "Маркет",
+      "WALLET_LINK"     : "Кошельки",
+      "DEALS_LINK"      : "Сделки",
+      "DIRECTIONS_LINK" : "Направления",
+      "UI_KIT"          : "UI_KIT"
+   },
+   "UI_SEARCH" : {
+      "YOUR_REQUEST"    : "По вашему запросу",
+      "NO_MATCH"        : "ничего не найдено.",
+      "CHANGE_SEARCH"   : "Измените параметры поиска."
+   },
+   "UI_SELLER_INFO" : {
+      "ON_SITE_FROM"    : "На сайте с",
+      "DEALS_AMOUNT"    : " сделок",
+      "TRADE_VOLUME"    : "Общий объем торговли на сервисе в BTC",
+      "AVERAGE_RESPONSE_TIME" : {
+         "TITLE"        : "Среднее время обработки заявки",
+         "IF_UNKNOWN"   : "Нет информации"
+      },
+      "LAST_DEAL_DATE"  : {
+         "TITLE"        : "Дата последней сделки",
+         "IF_UNKNOWN"   : "Нет информации",
+         "IF_NO_DEALS"  : "нет сделок"
+      },
+      "REVIEW_NULL"    : "нет отзывов"
+   },
+   "UI_CARD_TRADE" : {
+      "DAYS_SHORT"               : "д",
+      "HOURS_SHORT"              : "ч",
+      "MIN_SHORT"                : "мин",
+      "INITIALISED_SELLER"       : "Новая заявка",
+      "INITIALISED_BUYER"        : "Заявка отправлена",
+      "CREATED"                  : "Новая сделка",
+      "WAITING_CHAIN"            : "Ожидание чейна",
+      "WAITING_SERVICE"          : "Ожидание сервиса",
+      "WAITING_PAYMENT"          : "Оплачивается",
+      "WAITING_CONFIRM"          : "Подтверждается",
+      "WAITING_PARTNER_PAYMENT"  : "Оплачивается",
+      "WAITING_PARTNER_CHAIN"    : "Ожидание чейна",
+      "WAITING_PARTNER_CONFIRM"  : "Подтверждается",
+      "CANCELED"                 : "Отменено",
+      "CLOSED"                   : "Завершено"
+   },
+   "UI_STATUS_A0" : {
+      "STEP_STATUS"      : "Заявка отправлена",
+      "STEP_SELLER_SIDE" : "Ожидаем подтверждения сделки продавцом {{sellerName}}",
+      "STATUS_INFO"      : "В данный момент Вы отправили заявку продавцу. После того, как продавец подтвердит ее - начнется сделка."
+   },
+   "UI_STATUS_A1" : {
+      "STEP_TITLE"      : "Шаг 1",
+      "STEP_STATUS"     : "Ожидаем отправку средств",
+      "STEP_BUYER_SIDE" : "Со стороны покупателя {{buyerName}}",
+      "STATUS_INFO"     : "В данный момент покупатель отправляет средства на ваш кошелек. Как только покупатель отправит средства - Вы перейдете к следующему шагу."
+   },
+   "UI_STATUS_A2" : {
+      "STEP_TITLE"       : "Шаг 2",
+      "STEP_SELLER_SIDE" : "Ожидаем подтверждения продавца о получении средств"
+   },
+   "UI_STATUS_A3" : {
+      "STEP_TITLE"                     : "Шаг 1",
+      "CARD_TRANSACTION_TITLE_BUYER"   : "Отправьте на карту {{bankName}}",
+      "CARD_TRANSACTION_TITLE_SELLER"  : "Отправка на карту {{bankName}}",
+      "SENDER_TITLE"                   : "Отправитель",
+      "RECEIVER_TITLE"                 : "Получатель",
+      "YOU_TITLE"                      : "(Вы)",
+      "TRANSACTION_COST_TITLE"         : "Необходимая сумма к отправке:",
+      "STATUS_INFO_BUYER"              : "Условия со стороны продавца выполнены, теперь очередь за Вами. Отправьте на реквизиты продавца средства и подтвердите их отправку. Важно помнить, что нужно сначала отправить средства, а только потом подтвердить. В случае, если Вы не отправите средства, сделка будет отменена. В сумму не закладывается комиссия банка.",
+      "STATUS_INFO_SELLER"             : "В данный момент покупатель отправляет Вам средства на указанные Вами реквизиты. Проверьте платеж и подтвердите наличие средств на Вашем счете. В случае, если возникли проблемы - Вы всегда можете написать покупателю в чат, либо открыть спор для решения ситуации.",
+      "CONFIRM_TRANSFER_BUTTON"        : "Подтвердить отправку средств"
+   },
+   "UI_STATUS_A4" : {
+      "STEP_TITLE"            : "Шаг 2",
+      "STEP_SELLER_SIDE"      : "Ожидаем подтверждения продавца",
+      "CARD_GET_BANK_NAME"    : "О получении средств на карту {{bankName}}",
+      "STEP_STATUS_INFO"      : "Если Вы отправили средства - ожидайте подтверждения получения средств продавцом. Если что-то пойдет не так - Вы всегда можете открыть спор и пригласить администратора сервиса для решения конфликта."
+   },
+   "UI_STATUS_A5" : {
+      "STEP_TITLE"                  : "Шаг 5",
+      "WALLET_INFO"                 : "Со счета Emporium на ваш кошелек",
+      "FUNDS_SENT"                  : "отправлены средства в размере",
+      "WATCH_TRANSACTION_PROCESS"   : "Следить за транзакцией можно на ",
+      "EOSSCAN_LINK"                : "eosscan.io",
+      "STEP_STATUS_INFO"            : "Продавец подтвердил получение Ваших средств, и теперь средства с нашего временного кошелька идут к Вам. Оцените скорость и качество обслуживания продавца. В случае, если у Вас остались вопросы - можете написать нам в телеграм, либо на почту.",
+      "SET_RATE_BUTTON"             : "Понятно. Поставить оценку"
+   },
+   "UI_STATUS_B1" : {
+      "STEP_TITLE"                     : "Шаг 1",
+      "MAKE_TRANSACTION_TITLE"         : "Сделайте перевод на счет",
+      "BUYER_ACC_TITLE"                : "счет продавца",
+      "SUMM_TITLE"                     : "На сумму",
+      "RECOMMENDED_COMMISSION_TITLE"   : "Рекомендованная комиссия:",
+      "STEP_STATUS_INFO"               : "Отправьте криптовалюту на счет продавца. В сумму уже заложена комиссия сервиса.",
+      "CONFIRM_TRANSFER_BUTTON"        : "Подтвердить отправку средств"
+   },
+   "UI_STATUS_B2" : {
+      "STEP_TITLE"               : "Шаг 2",
+      "STEP_BUYER_SIDE"          : "Покупатель отправил средства на ваш криптокошелек",
+      "FROM_WALLET_TITLE"        : "Средства были отправлены с кошелька",
+      "STEP_STATUS_INFO"         : "Покупатель отправил вам средства на указанные реквизиты",
+      "CONFIRM_RECEIPT_BUTTON"   : "Подтвердить получение средств"
+   },
+   "UI_STATUS_B4" : {
+      "STEP_TITLE"            : "Шаг 2",
+      "ACCEPT_RECEIPT_TITLE"  : "Подтвердите получение средств от",
+      "SENDER_CARD_TITLE"     : "Карта отправителя:",
+      "SENDER_NAME_TITLE"     : "Имя отправителя:",
+      "SUMM_TITLE"            : "Сумма:",
+      "STEP_STATUS_INFO"      : "В данный момент покупатель отправляет Вам средства на указанные Вами реквизиты. Проверьте платеж и подтвердите наличие средств на Вашем счете. В случае, если возникли проблемы - Вы всегда можете написать покупателю в чат, либо открыть спор для решения ситуации.",
+      "ACCEPT_RECEIPT_BUTTON" : "Подтвердить получение средств"
+   },
+   "UI_STATUS_C1" : {
+      "STEP_TITLE"                     : "Шаг 1",
+      "MAKE_TRANSACTION_TITLE"         : "Сделайте перевод на счет",
+      "ADDRESS_TITLE"                  : "адрес:",
+      "SUMM_TITLE"                     : "Сумма:",
+      "RECOMMENDED_COMMISSION_TITLE"   : "Рекомендованная комиссия:",
+      "STEP_STATUS_INFO"               : "Отправьте Вашу криптовалюту на кошелек продавца и обязательно подтвердите свою отправку.",
+      "CONFIRM_TRANSFER_BUTTON"        : "Подтвердить отправку средств"
+   },
+   "UI_STATUS_C2" : {
+      "STEP_TITLE"                  : "Шаг 1",
+      "WAITING_FUNDS_FROM_BUYER"    : "Ожидаем поступление средств от {{buyerName}} на ваш счет.",
+      "BUYER_MADE_TRANSACTION"      : "Пользователь {{buyerName}} совершил перевод на счет Emporium",
+      "FUNDS_GOT_FROM_YOU"          : "Средства с вашей стороны были получены на счет Emporium",
+      "WAITING_FOR_FUNDS_FROM_YOU"  : "Ожидаем поступление средств с вашей стороны на счет Emporium",
+      "SELLER_MADE_TRANSACTION"     : "Пользователь {{sellerName}} совершил перевод на счет Emporium",
+      "WAITING_FOR_SELLERS_FUNDS"   : "Ожидаем поступление средств от {{sellerName}} на счет Emporium",
+      "SUMM_TITLE"                  : "Сумма:",
+      "WALLET_TITLE"                : "На кошелек:",
+      "STEP_STATUS_INFO"            : "В данный момент покупатель отправляет средства. Как только он подтвердит отправку средств - Вы можете просмотреть их наличие у себя в кошельке."
+   },
+   "UI_STATUS_C3" : {
+      "STEP_TITLE"            : "Шаг 2",
+      "TO_WALLET_TITLE"       : "Со счета {{buyerName}} на ваш кошелек",
+      "FUNDS_SENT_TITLE"      : "отправлены средства в размере",
+      "FUNDS_SENT_TO"         : "Средства были высланы на указанный Вами кошелек: ",
+      "ACCEPT_RECEIPT_BUTTON" : "Подтвердить получение средств"
+   },
+   "UI_STATUS_C4" : {
+      "STEP_TITLE"                  : "Шаг 2",
+      "WAITING_FOR_BUYERS_CONFIRM"  : "Ожидаем подтверждения продавца",
+      "FUNDS_GOT_TO"                : "О получении средств на кошелек",
+      "STEP_STATUS_INFO"            : "Если Вы отправили средства - ожидайте подтверждения получения средств продавцом. Если что-то пойдет не так - Вы всегда можете открыть спор и пригласить администратора сервиса для решения ситуации."
+   },
+   "UI_STATUS_CANCEL" : {
+      "STEP_TITLE"         : "Сделка отменена",
+      "STEP_STATUS_INFO"   : "Сделка может быть отменена продавцом или покупателем вручную. А также по истечению времени на принятие заявки продавцом."
+   },
+   "UI_STATUS_COMPLETE" : {
+      "STEP_TITLE"                  : "Сделка завершена",
+      "WATCH_TRANSACTION_PROCESS"   : "Транзакцию можете посмотреть",
+      "HERE_TITLE"                  : "здесь",
+      "RATE_USER_TITLE"             : "Оцените работу пользователя",
+      "YOUR_USERS_RATE"             : "Ваша оценка пользователя",
+      "RATE_BUTTON"                 : "Оценить"
+   },
+   "UI_STATUS_INIT" : {
+      "I_GIVE"                   : "Я отдаю:",
+      "MULTISIG_TITLE"           : "Multisig-кошелек:",
+      "I_GET"                    : "Я получаю:",
+      "WALLET_GET"               : "Кошелёк получения:",
+      "CARD_GET"                 : "Карта, на которую покупатель отправит деньги:",
+      "CHAIN_FEE"                : "Комиссия сети",
+      "SERVICE_FEE"              : "Комиссия сервиса:",
+      "CHAIN_FEE_DEF_TITLE"      : "Комиссия сети",
+      "CHAIN_FEE_DEF"            : "- обязательная для отправки любой транзакции сумма. Ознакомьтесь с комиссией сети, которая будет заложена при подписи транзакции.",
+      "MORE_ABOUT_CHAIN_FEE_1"   : "Более подробно о том, что такое",
+      "MORE_ABOUT_CHAIN_FEE_2"   : "Вы можете ознакомиться",
+      "HERE_TITLE"               : "здесь"
+   },
+   "UI_STATUS_RATE" : {
+      "STEP_TITLE"      : "Сделка почти завершена",
+      "RATE_USER_TITLE" : "Оцените пользователя",
+      "USER_TO_RATE"    : "AleseyMochis"
+   },
+   "AUTH" : {
+      "PAGE_BREAK" : {
+         "EMPORIUM"           : "EMPORIUM",
+         "TECH_WORKS_TITLE"   : "На сайте ведутся технические работы.",
+         "LEFT"               : "Осталось",
+         "COPYRIGHT_EMPORIUM" : "Emporium"
+      },
+      "PAGE_LOGIN" : {
+         "UI_LOGIN" : {
+            "LOGIN_TITLE"           : "Войти в личный кабинет",
+            "MAIL"                  : "Ваша почта",
+            "PASSWORD"              : "Пароль",
+            "REMEMBER_ME"           : "Запомнить меня",
+            "FORGOT_PASSWORD"       : "Забыли пароль?",
+            "NO_ACC"                : "Нет аккаунта?",
+            "REGISTRATION_BUTTON"   : "Регистрация"
+         },
+         "UI_LOGIN_ROUTE" : {
+            "ENABLE_2FA_TITLE"   : "Подключение 2FA",
+            "2FA_INFO"           : "Двухфакторная аутентификация (2FA) — это метод идентификации пользователя при помощи запроса аутентификационных данных двух разных типов, что обеспечивает двухслойную, а значит, более эффективную защиту аккаунта от несанкционированного проникновения.",
+            "ENABLE_NOW"         : "Я хочу подключить 2FA сейчас",
+            "SKIP"               : "Пропустить этот шаг и подключить позже"
+         },
+         "UI_LOGIN_TWOFA" : {
+            "2FA_TITLE"          : "Двухфакторная аутентификация",
+            "ENTER_CODE_TITLE"   : "Введите код из своего 2FA приложения:",
+            "ENTER_WITH_RECOVERY": "Войти с помощью кодов восстановления"
+         },
+         "UI_LOGIN_RECOVERY" : {
+            "2FA_TITLE"          : "Двухфакторная аутентификация",
+            "ENTER_ONE_RECOVERY" : "Введите один из кодов восстановления:",
+            "ENTER_WITH_2FA"     : "Войти с помощью 2FA приложения"
+         },
+         "UI_LOGIN_TWOFA_CODES" : {
+            "2FA_TITLE"          : "Коды восстановления 2FA",
+            "2FA_INFO"           : "Коды восстановления могут быть использованы, если Вы потеряли доступ к своему приложению и не можете получить 2FA код.",
+            "2FA_LIST_TITLE"     : "Коды восстановления:",
+            "DOWNLOAD_2FA_TITLE" : "Скачайте коды восстановления на свой компьютер до того, как Вы перейдете в личный кабинет.",
+            "DOWNLOAD_BUTTON"    : "Скачать"
+         },
+         "UI_LOGIN_TWOFA_ENABLE" : {
+            "2FA_TITLE_1"     : "Подключить 2FA",
+            "2FA_TITLE_2"     : "Подключить двухфакторную аутентификацию",
+            "INSTRUCTION_1"   : "Просканируйте QR код с помощью 2FA приложения на своем телефоне. Мы рекомендуем приложение",
+            "INSTRUCTION_2"   : "После сканирования QR кода приложение покажет вам 6-значный код, который необходимо ввести в поле ниже.",
+            "ENTER_CODE"      : "Введите код ниже:",
+            "ENABLE_BUTTON"   : "Подключить"
+         }
+      },
+      "PAGE_PASSWORD_RESET" : {
+         "ENTER_NEW_PAS" : "Новый пароль",
+         "UI_PASSWORD_RESET" : {
+            "NEW_PAS"               : "Новый пароль",
+            "SYMBOLS_LIMIT"         : "Минимум 6 символов",
+            "REPEAT_NEW_PAS"        : "Повторите новый пароль",
+            "PASSWORDS_DONT_MATCH"  : "Пароли не совпадают"
+         }
+      },
+      "PAGE_PASSWORD_RESET_TWOFA" : {
+         "CONFIRM_2FA"        : "Подтверждение 2FA",
+         "ENTER_NEW_PAS"      : "Введите новый пароль",
+         "UI_PASSWORD_RESET_TWOFA" : {
+            "ENTER_2FA_CODE"  : "Введите код из своего 2FA приложения:"
+         }
+      },
+      "PAGE_RECOVERY" : {
+         "FORGOT_PAS"         : "Забыли пароль?",
+         "ENTER_EMAIL"        : "Введите почту, указанную при регистрации:",
+         "SEND_INSTRUCTION"   : "Выслать инструкцию",
+         "REMEMBERED_PAS"     : "Вспомнили пароль?",
+         "ENTER_SITE"         : "Войти на сайт"
+      },
+      "PAGE_REGISTRATION" : {
+         "UI_CONFIRM" : {
+            "THANKS"             : "Спасибо!",
+            "SUCCESSFUL_REG"     : "Вы успешно зарегестрированы!",
+            "THANK_INFO"         : "На указанный Вами e-mail отправлено письмо с запросом подтверждения регистрации. По всем вопросам Вы можете обращаться:",
+            "ENTER_SITE_BUTTON"  : "Войти на сайт"
+         },
+         "UI_REGISTRATION" : {
+            "REG_TITLE"             : "Регистрация",
+            "MAIL"                  : "Ваша почта",
+            "INCORRECT_MAIL"        : "Некорректный E-mail",
+            "REQUIRED_FIELD"        : "Обязательное поле",
+            "NICK"                  : "Никнейм",
+            "INCORRECT_NICK"        : "Некорректный никнейм. Никнейм может состоять из знаков: a-z A-Z 0-9. Например: crypto.seller",
+            "SYMBOLS_LIMIT_NICK"    : "Минимум 3 символа.",
+            "NICK_ALREADY_EXISTS"   : "Никнейм занят.",
+            "PAS"                   : "Пароль",
+            "SYMBOLS_LIMIT_PAS"     : "Минимум 6 символов",
+            "REPEAT_PAS"            : "Повторите пароль",
+            "PASSWORDS_DONT_MATCH"  : "Пароли не совпадают",
+            "CONTINUE_DESCR"        : "Нажимая «Продолжить» Вы принимаете условия",
+            "TERMS_OF_USE"          : "Пользовательского соглашения",
+            "ALREADY_HAVE_ACC"      : "Есть аккаунт?",
+            "ENTER_SITE"            : "Войти на сайт"
+         }
+      }
+   },
+   "HOME" : {
+      "PAGE_DASHBOARD" : {
+         "CONTROL_PANEL"   : "Панель управления",
+         "RATING"          : "Рейтинг",
+         "SOLD_TOTALLY"    : "Всего продано",
+         "LAST_DEAL_DATE"  : "Последняя сделка",
+         "DEALS_AMOUNT"    : "Кол-во сделок",
+         "TABS" : {
+            "GIVE"         : "ОТДАЮ",
+            "GET"          : "ПОЛУЧАЮ",
+            "PARTNER"      : "ПАРТНЕР",
+            "COURSE"       : "КУРС",
+            "PROCESSING"   : "ОБРАБОТКА",
+            "STATUS"       : "СТАТУС",
+            "CREATED_AT"   : "ДАТА СОЗДАНИЯ"
+         },
+         "NO_DEALS" : {
+            "TITLE"  : "Сделок не обнаружено",
+            "INFO"   : "Здесь будут отображены все проведенные на сервисе Emporium операции"
+         },
+         "EDIT" : {
+            "WALLET" : {
+               "EDIT"   : "Редактирование",
+               "WALLET" : "кошелька"
+            },
+            "BANK" : "Редактирование карт"
+         }
+      },
+      "PAGE_MARKET" : {
+         "PAGE_1_MARKET" : {
+            "MARKET_TITLE"          : "Маркет",
+            "AVAILABLE_ON_MARKET"   : "Доступно на маркете",
+            "PURCHASES"             : "покупок",
+            "FOR_24_HOURS"          : "За последние 24 часа на сумму",
+            "PEOPLE"                : "человек",
+            "CURRENCY_CHOOSERS"     : "Выбирают валюту",
+            "CRYPTOCURRENCY_TITLE"  : "Криптовалюты",
+            "CRYPTOCURRENCY_COUNT"  : "криптовалют",
+            "SEARCH_PLACEHOLDER"    : "Поиск валюты",
+            "UI_MARKET_CARD" : {
+               "RUB"                : "RUB",
+               "AVAILABLE"          : "Доступно для покупки",
+               "PURCHASE_OPTIONS"   : "вариантов покупки"
+            }
+         },
+         "PAGE_2_DIRECTION" : {
+            "UI_DIRECTION_CARD" : {
+               "FROM"         : "от",
+               "AVAILABLE"    : "Доступно",
+               "DIRECTIONS"   : "предложений"
+            },
+            "PURCHASE"              : "Покупка",
+            "AVAILABLE_ON_MARKET"   : "Доступно на маркете",
+            "PURCHASES"             : "покупок",
+            "FOR_24_HOURS"          : "За последние 24 часа на сумму",
+            "PEOPLE"                : "человек",
+            "CHOOSE"                : "Выбирают",
+            "CRYPTOCURRENCY_TITLE"  : "Криптовалюты",
+            "DIRECTIONS"            : "направлений",
+            "CURRENSY_SEARCH"       : "Найти валюту",
+            "BANK_SEARCH"           : "Найти банк"
+         },
+         "PAGE_3_OFFER" : {
+            "OFFERS"                : "Предложения",
+            "AVAILABLE_ON_MARKET"   : "Доступно на маркете",
+            "PURCHASES"             : "покупок",
+            "FOR_24_HOURS"          : "За последние 24 часа на сумму",
+            "PEOPLE"                : "человек",
+            "OFFERING"              : "Оформляют заказ",
+            "PURCHASE"              : "Покупка",
+            "WITH_HELP_OF"          : "за",
+            "CHOOSE_SELLER"         : "Выберите продавца:",
+            "DIRECTIONS"            : "предложений",
+            "SELLER_NAME"           : "ИМЯ ПРОДАВЦА",
+            "RATING"                : "РЕЙТИНГ",
+            "DEALS"                 : "СДЕЛКИ",
+            "AWAITING"              : "ОЖИДАНИЕ",
+            "LIMIT_FROM"            : "ЛИМИТ (ОТ)",
+            "LIMIT_TO"              : "ЛИМИТ (ДО)",
+            "COURSE"                : "КУРС ПОКУПКИ",
+            "UI_OFFER_CARD" : {
+               "DEALS"              : "сделки",
+               "DAYS_SHORT"         : "дн",
+               "HOURS_SHORT"        : "ч",
+               "MIN_SHORT"          : "мин",
+               "SEC_SHORT"          : "сек",
+               "UNKNOWN"            : "Нет информации"
+            }
+         },
+         "PAGE_4_NEW_DEAL" : {
+            "NEW_DEAL"           : "Новая сделка",
+            "SELLER"             : "Продавец",
+            "LIMITS"             : "Лимиты",
+            "COURSE"             : "Курс покупки",
+            "DETERM_SUMM"        : "Определитесь с суммой и способом оплаты",
+            "SPECIFY_AMMOUNT"    : "Укажите сумму покупки",
+            "SELLER_INFO"        : "Информация о продавце и условиях сделки",
+            "ADDING"             : "Добавление",
+            "CARD"               : "карты",
+            "WALLET"             : "кошелька",
+            "TRANSACTION_SIGN"   : "Подписание транзакции",
+            "I_GIVE"             : "Я отдаю",
+            "FROM"               : "С",
+            "FROM_CARD"          : "С карты",
+            "I_GET"              : "Получаю",
+            "ON"                 : "На",
+            "WALLET_2"           : "кошелёк",
+            "SERVICE_COMISSION"  : "Комиссия сервиса",
+            "CHAIN_COMISSION"    : "Комиссия сети",
+            "PRIVATE_KEY"        : "Приватный ключ от",
+            "SUBSCRIBE_BUTTON"   : "Подписать",
+            "UI_DEAL_INFO" : {
+               "SELLERS_CONDITIONS"       : "Условия продавца",
+               "SERVICE_WARRANTY"         : "Гарантия сервиса",
+               "SERVICE_WARRANTY_DESCR"   : "Сервис Emporium гарантирует Вам прозрачный обмен. Нет никаких скрытых комиссий и дополнительных сборов. Вся информация о всех суммах и комиссиях перед Вашими глазами!",
+               "SECURITY"                 : "Безопасность",
+               "SECURITY_DESCR"           : "Не волнуйтесь! Ваши средства под защитой. Мы используем простую схему, при которой Ваши средства всегда будут в безопасности. В случае, если Вас что-то не устроило - Вы всегда можете открыть спор.",
+               "BANK_REQ"                 : "Банковские реквизиты",
+               "BANK_REQ_DESCR"           : "Мы не используем Ваши личные данные и не передаем их третьим лицам. Все, что связано с картами и их реквизитами остается только у нас. С более подробными условиями Вы можете ознакомиться в",
+               "BANK_REQ_LINK"            : "Правилах пользования",
+               "DISPUTE"                  : "Спор",
+               "DISPUTE_DESCR"            : "Вам что-то не понравилось? Вы всегда можете открыть спор, нажав на соответствующую иконку в чате. После того, как Вы инициируете спор, к Вам подключится администратор сервиса и решит все Ваши вопросы."
+            },
+            "UI_DEAL_INIT" : {
+               "I_GIVE"                   : "Я отдаю:",
+               "INCORRECT"                : "Некорректные данные",
+               "MIN"                      : "Минимум:",
+               "MAX"                      : "Максимум:",
+               "CRYPTO_GET"               : "Кошелёк, с которого будут отправлены средства:",
+               "CARD_GET"                 : "Карта, с которой продавец будет ждать перевод:",
+               "I_GET"                    : "Я получаю:",
+               "WALLET_GET"               : "Кошелёк получения:",
+               "CHAIN_COMISSION"          : "Комиссия сети",
+               "SERVICE_COMISSION"        : "Комиссия сервиса:",
+               "CHAIN_COMISSION_TITLE"    : "Комиссия сети",
+               "CHAIN_COMISSION_DESCR_1"  : "обязательная для отправки любой транзакции сумма.",
+               "CHAIN_COMISSION_DESCR_2"  : "Ознакомьтесь с комиссией сети. Именно с такой комиссией продавец отправит вам криптовалюту на ваш {{tickerSell}}-кошелек.",
+               "CHAIN_COMISSION_DESCR_3"  : "Более подробно о том, что такое “Комиссии сети”, Вы можете ознакомиться",
+               "HERE"                     : "здесь",
+               "CREATE_DEAL_BUTTON"       : "Создать сделку",
+               "ITS_YOUR_OFFER"           : "Остальные пользователи видят так Вашу страницу. Вы не можете отправить сделку самому себе, иначе у нас всё сломается :{",
+               "OFFER_STOPPED"            : "Данное предложение на обмен в текущий момент приостановленно"
+            }
+         },
+        "NO_DIRECTIONS": {
+          "TITLE"               : "Упс! Вы слишком далеко зашли ಠ_ಠ",
+          "TEXT_START"          : "По запросу",
+          "TEXT_END_SHORT"      : "ничего не найдено",
+          "TEXT_END"            : "ничего не найдено, вернуться на ",
+          "MARKET"              : "маркет"
+        }
+      },
+      "PAGE_OFFER" : {
+         "PAGE_OFFER_CREATE" : {
+            "TITLE"  : "Направления",
+            "ADDING" : "Добавление {{ticker}}"
+         },
+         "PAGE_OFFER_EDIT" : {
+            "TITLE"  : "Направления",
+            "ADDING" : "Добавление {{ticker}}"
+         },
+         "PAGE_OFFER_LIST" : {
+            "TITLE"                       : "Направления",
+            "ACTIVE_DIRECTIONS"           : "Активные направления",
+            "DIRECTIONS"                  : "направлений",
+            "ACTIVE_DIRECTIONS_SEARCH"    : "Поиск активных направлений",
+            "CREATE_DIRECTION"            : "Создать направление",
+            "NO_DIRECTIONS"               : "Направлений для торговли не найдено",
+            "MANUAL"                      : "Для того чтобы начать торговлю, создайте направление",
+            "STOPPED_DIRECTIONS"          : "Приостановленные направления",
+            "STOPPED_DIRECTIONS_SEARCH"   : "Поиск приостановленных направлений",
+            "UI_USER_OFFER_CARD" : {
+
+            }
+         },
+         "UI_STEPS" : {
+            "STEP_1" : {
+               "WHAT_TO_SELL" : "Что Вы будете продавать?",
+               "INFO_1"       : "Выберите валюту, которую Вы собираетесь продать",
+               "I_SELL"       : "Я продаю:",
+               "MSIG_ADDRES"  : "Адрес multisig-кошелька:",
+               "MSIG_BALANCE" : " Баланс multisig-кошелька:",
+               "NO_MSIG_YET"  : "У вас еще нет multisig-кошелька. Создайте его прямо сейчас.",
+               "CREATE_MSIG"  : "Создать"
+            },
+            "STEP_2" : {
+               "WHAT_TO_GET"  : "Что будете принимать?",
+               "INFO_2"       : "Выберите валюту, которую Вы хотите получить, а также реквизиты для её получения",
+               "TYPE"         : "Тип оплаты:",
+               "MY_BANK"      : "Мой банк:",
+               "CARD"         : "Карта:",
+               "CRYPTO"       : "Криптовалюта:",
+               "ADDRES"       : "Адрес кошелька:"
+            },
+            "STEP_3" : {
+               "DEAL_LIMITS"  : "Установите ограничения для сделки",
+               "INFO_3"       : "Укажите минимальную и максимальную сумму для приема платежа",
+               "MIN"          : "Минимальная сделка:",
+               "MAX"          : "Максимальная сделка:"
+            },
+            "STEP_4" : {
+               "COURSE"          : "Укажите курс торговли и процент маржи",
+               "INFO_4"          : "В данном шаге Вы формируете свой заработок со сделки. Выберите курс биржи, по которому хотите торговать, а также процент заработка с каждой сделки.",
+               "EXCHANGE"        : "Биржа:",
+               "EXCHANGE_COURSE" : "Курс биржи для пары:",
+               "PROCENT"         : "Процент маржи (c каждой продажи):",
+               "YOUR_COURSE"     : "Ваш курс с учетом наценки:"
+            },
+            "STEP_5" : {
+               "INFO"         : "Дополнительная информация",
+               "INFO_INFO"    : "Введите информацию о Вас и Вашем направлении в свободной форме",
+               "INFO_TEXT"    : "Текст Информации",
+               "READY_BUTTON" : "Готово"
+            },
+            "STEP_6" : {
+               "INFO_TITLE"         : "Информация о вашем предложении",
+               "INFO_INFO"          : "Здесь отображается карточка, которая показывает Вам конечный результат всех заполненных шагов",
+               "CHOOSEN_COURSE"     : "Выбранный торговый курс биржи",
+               "YOUR_MARGE"         : "Ваша маржа",
+               "COURSE_DIF"         : "разница от курса в",
+               "SERVICE_COMISSION"  : "Комиссия сервиса Emporium",
+               "BY_DEAL"            : "со сделки",
+               "YOU_GET"            : "Вы получите за",
+               "EDIT_BUTTON"        : "Редактировать"
+            }
+         }
+      },
+      "PAGE_PAYMENTS" : {
+         "PAGE_CREATE_MSIG" : {
+            "WALLET_CONTROL"           : "Управление кошельком",
+            "CREATE_MSIG_BUTTON"       : "Создать Multisig адрес",
+            "ADDITIONAL_INFO"          : "Дополнительная информация",
+            "CREATE_MSIG_TITLE"        : "Создание Multisig адреса",
+            "SELECT_METHOD"            : "Выберите способ создания Multisig-кошелька",
+            "SELECT_1_OF_3"            : "Выберите один из трёх способов создания кошелька торговли",
+            "GENERATE_ADDRES"          : "Сгенерировать адрес",
+            "GENERATE_ADDRES_INFO"     : "Сервис дает Вам возможность сгенерировать адрес {{coin}} для того, чтобы Вы смогли создать Multisig-кошелек",
+            "GENERATE_BY_ALTER"        : "Сгенерировать через Alter.App",
+            "GENERATE_BY_ALTER_INFO"   : "Если у Вас есть бразуерное расширение Alter, то Вы сможете сгенерировать адрес внутри расширения и импортировать его на Emporium",
+            "USE_YOUR_PUBLIC_KEY"      : "Использовать свой публичный ключ",
+            "USE_YOUR_ADDRES"          : "Использовать свой адрес",
+            "USE_YOUR_PUBLIC_KEY_INFO" : "Если Вы знаете, что такое публичный и приватный ключи кошелька - этот вариант для Вас. Вы можете импортировать свой кошелек на сервис Emporium",
+            "USE_YOUR_ADDRES_INFO"     : "Вы можете использовать свой адрес для генерации Multisig-кошелька.",
+            "WALLET_INFO"              : "Информация о кошельке",
+            "SAVE_THIS_FOR_SURE"       : "Обязательно сохраните эту информацию",
+            "ENTER_YOUR_DATA"          : "Введите свои данные ниже",
+            "WALLET_ADDRESS"           : "Адрес кошелька:",
+            "PUBLIC_KEY"               : "Публичный ключ:",
+            "PRIVATE_KEY"              : "Приватный ключ:",
+            "USE_ADDRES_TO_GENERATE"   : "Использовать адрес для генерации Multisig-кошелька",
+            "COIN_WALLET_ADDRES"       : "Адрес {{coin}}-кошелька:",
+            "COIN_PUBLIC_KEY"          : "Публичный ключ {{coin}}-кошелька:",
+            "MSIG_ADDRES"              : "Multisig address",
+            "EMPORIUM_ADDRES"          : "Emporium address:",
+            "YOUR_ADDRES"              : "Your address:",
+            "BALANCE"                  : "Баланс",
+            "LOCKED"                   : "Заблокировано к выводу",
+            "TRANSACTIONS_AMOUNT"      : "Кол-во транзакций",
+            "TRANSACTIONS_HISTORY"     : "История транзакций по кошельку",
+            "TRANSACTIONS" : {
+               "TITLE"                 : "Транзакции",
+               "DATE"                  : "ДАТА ТРАНЗАКЦИИ",
+               "TYPE"                  : "ТИП",
+               "ADDRES"                : "АДРЕС",
+               "HASH"                  : "HASH",
+               "SUMM"                  : "СУММА"
+            },
+            "CONFIRM_MSING_CREATION"   : "Подтверждение создания Multisig",
+            "CHECK_MSIG_CREATE_KEYS"   : "Проверка кошелька",
+            "COIN_PRIVATE_KEY"         : "Приватный ключ {{coin}}-кошелька:",
+            "SUBSCRIBE_BUTTON"         : "Подписать",
+            "SUBSCRIBE_TITLE"          : "Подпишите вывод средств с Multisig",
+            "IMPORTANT_INFO_TITLE"     : "Важная информация!",
+            "IMPORTANT_INFO_INFO"      : "Просим Вас сохранить всю информацию, которая относится к Multisig кошельку. Если Вы потеряете доступ к приватному ключу от кошелька, то мы не сможем восстановить доступ",
+
+            "UI_INPUT_OUTPUT" : {
+               "INPUT_TITLE"           : "Ввод средств",
+               "INPUT_INFO"            : "Ввод средств на указанный кошелек",
+               "COIN_ADDRES"           : "Адрес пополнения баланса {{coin}}:",
+               "COPY_BUTTON"           : "Копировать",
+               "OUTPUT_TITLE"          : "Вывод средств",
+               "OUTPUT_INFO"           : "Вывод средств с указанного кошелька",
+               "SUMM"                  : "Сумма",
+               "CHAIN_FEE"             : "Комиссия сети",
+               "SPECIFY_WALLET_NUMBER" : "Укажите номер кошелька:",
+               "CREATE_TRANSACTION"    : "Создать транзакцию на вывод"
+            },
+
+            "UI_TX_CARD" : {
+               "SENDING"               : "Отправка",
+               "RECEIVING"             : "Получение"
+            },
+
+            "UI_WITHDRAW_WALLETS" : {
+               "WALLETS_TITLE"                  : "кошельки",
+               "WALLETS_INFO"                   : "Список кошельков с названиями для удобства",
+               "WALLET_NAME"                    : "Имя кошелька:",
+               "CHANGE"                         : "Изменить",
+               "WALLET_NUMBER"                  : "Номер кошелька",
+               "NEW_WALLET_NAME"                : "Имя нового кошелька:",
+               "NEW_WALLET_PLACEHOLDER"         : "Дополнительный",
+               "ADDING_NEW_WALLET"              : "Добавление нового кошелька:",
+               "ADDING_NEW_WALLET_PLACEHOLDER"  : "Введите адрес {{coin}} кошелька",
+               "INCORRECT_ADDRES"               : "Некорректный адрес"
+            }
+         },
+         "PAGE_PAYMENT_LIST" : {
+            "PAGE_TITLE"                  : "Кошельки",
+            "CRYPTO"                      : "Криптовалюты",
+            "WALLET"                      : "кошелька",
+            "CRYPTO_SEARCH_PLACEHOLDER"   : "Поиск криптовалюты",
+            "BANK_CARDS_TITLE"            : "Банковские карты",
+            "BANK_CARDS"                  : "карты",
+            "BANK_SEARCH_PLACEHOLDER"     : "Поиск банковских карт",
+            "ADD_NEW_CARD"                : "Добавить новую карту",
+            "PAYMENTS_TITLE"              : "Платежные системы",
+            "PAYMENTS"                    : "платежных систем",
+            "PAYMENTS_SEARCH_PLACEHOLDER" : "Поиск платежных систем",
+            "ADD_NEW_PAYMENT"             : "Добавить платежную систему",
+            "CARD_EDITING"                : "Редактирование карт",
+            "CARD_ADDING"                 : "Добавление карты",
+            "PAYMENT_ADDING"              : "Добавление платежной системы",
+            "PAYMENT_EDITING"             : "Редактирование платежной системы"
+         },
+         "UI_ADD_BANK" : {
+            "CARD_NAME"          : "Название карты:",
+            "OWNER"              : "Владелец:",
+            "CARD_NUMBER"        : "Номер карты:",
+            "BANK"               : "Банк:",
+            "CURRENCY"           : "Валюта карты:"
+
+         },
+         "UI_ADD_CRYPTO" : {
+            "CRYPTO"             : "Криптовалюта:",
+            "WALLET_ADDRES"      : "Адрес кошелька:",
+            "INCORRECT_ADDRES"   : "Некорректный адрес"
+         },
+         "UI_ADD_PAYMENT" : {
+            "CHOOSE_PAYMENT"     : "Выбор платежной системы:",
+            "CHOOSE_WALLET"      : "Выбор валюты:"
+         },
+         "UI_CARD_BANK" : {
+            "CARDS"              : "карты",
+            "CURRENCIES"         : "Валюты:"
+         },
+         "UI_CARD_CRYPTO" : {
+
+         },
+         "UI_CARD_PAYMENT" : {
+            "ACCOUNTS": {
+              "ONE"              : "аккаунт",
+              "FEW"              : "аккаунта",
+              "MANY"             : "аккаунтов",
+              "OTHER"            : "аккаунта(ов)"
+            },
+            "CURRENCIES"         : "Валюты:"
+         },
+         "UI_EDIT_BANK" : {
+            "ADD_NEW_CARD"       : "Добавить новую карту",
+            "CARD_NAME"          : "Название карты:",
+            "CARD_HOLDER_NAME"   : "Имя держателя карты:",
+            "CARD_NUMBER"        : "Номер карты:",
+            "CURRENCY"           : "Валюта:"
+         },
+         "UI_EDIT_CRYPTO" : {
+            "WALLET_ADDRES"      : "Адрес кошелька:",
+            "BALANCE"            : "Баланс:",
+            "ADD_WALLET_ADDRES"  : "Добавить адрес кошелька:"
+         },
+         "UI_EDIT_PAYMENT" : {
+            "ADD_NEW_ACC"        : "Добавить новый аккаунт",
+            "ACC"                : "Аккаунт",
+            "CURRENCY_CHOOSE"    : "Выбор валюты:",
+            "ACC_NAME"           : "Имя аккаунта"
+         }
+      },
+      "PAGE_PROFILE" : {
+         "SETTINGS"                    : "Настройки",
+         "ACC_TITLE"                   : "Аккаунт",
+         "ACC_INFO"                    : "Здесь Вы можете изменить ваш e-mail и пароль. Имя пользователя изменить нельзя, оно является Вашим уникальным идентификатором.",
+         "USERNAME"                    : "Имя пользователя:",
+         "MAIL"                        : "Почта:",
+         "BUTTON_CHANGE"               : "Изменить",
+         "PASSWORD"                    : "Пароль:",
+         "2FA_TITLE"                   : "2FA",
+         "2FA_INFO_1"                  : "В данном разделе Вы можете отключить двухфакторную аутентификацию.",
+         "ATTENTION"                   : "Внимание!",
+         "2FA_INFO_2"                  : "Если Вы отключите 2FA, то безопасность вашего аккаунта может быть под угрозой!",
+         "STATUS"                      : "Статус:",
+         "ENABLED"                     : "Подключена",
+         "DISABLED"                    : "Отключена",
+         "DISABLE_BUTTON"              : "Отключить",
+         "CODES_BUTTON"                : "Коды",
+         "ENABLE_BUTTON"               : "Подключить",
+         "SAFETY_TITLE"                : "Безопасность",
+         "SAFETY_INFO"                 : "Здесь Вы можете посмотреть историю входов с разных устройств. Если Вам кажется, что какое-то из устройств незнакомо - просто завершите его сеанс и поменяйте пароль на аккаунте",
+         "OS"                          : "ОС",
+         "TIME"                        : "Время",
+         "LOCATION"                    : "Локация",
+         "BROWSER"                     : "Браузер",
+         "CLOSE_SESSION_BUTTON"        : "Завершить",
+         "NOTIFICATIONS_TITLE"         : "Уведомления",
+         "NOTIFICATIONS_INFO"          : "Мы обязательно будет сообщать Вам о любых важных изменениях, а темы остальных уведомлений Вы можете выбрать сами.",
+         "SYSTEM"                      : "Система",
+         "APP"                         : "App",
+         "EMAIL"                       : "Email",
+         "PUSH"                        : "Push",
+         "REPORT_LOGIN"                : "Сообщать о входе в систему",
+         "TRADING"                     : "Обмен валюты",
+         "REPORT_NEW_OFFERS"           : "Сообщать о новых предложениях на обмен",
+         "REPORT_STATUS_CHANGE"        : "Сообщать о смене статуса сделки",
+         "REPORT_NEW_MESSAGES"         : "Сообщать о новых сообщениях в сделках",
+         "REPORT_2FA_STATUS_CHANGE"    : "Сообщать об изменении статуса 2FA",
+         "REPORT_EMAIL_CHANGE"         : "Сообщать о смене email",
+         "REPORT_PASSWORD_CHANGE"      : "Сообщать о смене пароля",
+         "EDIT_PASSWORD"               : "Редактирование пароля",
+         "EDIT_MAIL"                   : "Редактирование почтового адреса",
+         "2FA_CODES_TITLE"             : "Коды восстановления 2FA",
+         "ENABLE_2FA"                  : "Подключить 2FA",
+         "2FA_CODES"                   : "Коды восстановления 2FA",
+         "DISABLE_2FA"                 : "Отключить 2FA",
+         "UI_CHANGE_EMAIL" : {
+            "CURRENT_PASSWORD"         : "Текущий пароль",
+            "NEW_MAIL"                 : "Новая почта",
+            "INCORRECT_EMAIL"          : "Некорректный email"
+         },
+         "UI_CHANGE_PASS" : {
+            "CURRENT_PASSWORD"         : "Текущий пароль",
+            "NEW_PASSWORD"             : "Новый пароль",
+            "SYMBOLS_MINIMAL_LIMIT"    : "Минимум 6 символов",
+            "REPEAT_NEW_PASSWORD"      : "Повторите новый пароль",
+            "PASSWORDS_DONT_MATCH"     : "Пароли не совпадают"
+         },
+         "UI_2FA_CODES" : {
+            "MANUAL"                   : "Коды восстановления могут быть использованы, если Вы потеряли доступ к своему приложению и не можете получить 2FA код.",
+            "CODES_TITLE"              : "Коды восстановления:",
+            "DOWNLOAD_CODES"           : "Скачайте коды восстановления на свой компьютер до того, как Вы перейдете в личный кабинет.",
+            "DOWNLODAL_BUTTON"         : "Скачать"
+         },
+         "UI_2FA_DISABLE" : {
+            "ENTER_CODE"               : "Введите код из своего 2FA приложения:",
+            "DISABLE_BUTTON"           : "Отключить"
+         },
+         "UI_2FA_ENABLE" : {
+            "ENABLE_2FA_TITLE"         : "Подключить двухфакторную аутентификацию",
+            "MANUAL_1"                 : "Просканируйте QR код с помощью 2FA приложения на своем телефоне. Мы рекомендуем приложение",
+            "AUTHY_LINK"               : "Authy",
+            "MANUAL_2"                 : "После сканирования QR кода приложение покажет Вам 6-значный код, который необходимо ввести в поле ниже.",
+            "ENTER_CODE_BELOW"         : "Введите код ниже:",
+            "ENABLE_BUTTON"            : "Подключить"
+         }
+      },
+      "PAGE_USER_PROFILE" : {
+         "PROFILE"                     : "Профиль",
+         "ON_SITE_FROM"                : "На сайте с",
+         "SUPORTED_CURRENCIES"         : "Поддерживаемые валюты:",
+         "EMPTY"                       : "Пока отсютствуют",
+         "NAME"                        : "Имя",
+         "LAST_NAME"                   : "Фамилия",
+         "SAVE_CHANGINGS"              : "Сохранить изменения",
+         "RATING"                      : "Рейтинг",
+         "DEALS_AMMOUNT"               : "Кол-во сделок",
+         "COMMENTS"                    : "Отзывов",
+         "USER_INFO"                   : "Информация о пользователе",
+         "BTC_TRADE_VOLUME"            : "Общий объем торговли на сервисе в BTC",
+         "REACTION_RATE"               : "Среднее время обработки заявки",
+         "SECONDS"                     : "секунд",
+         "LAST_DEAL_DATE"              : "Дата последней сделки",
+         "EMAIl"                       : "E-mail",
+         "CONFIRMED"                   : "Подтвержден",
+         "NOT_CONFIRMED"               : "Не подтвержден",
+         "MOBILE_NUMBER"               : "Мобильный номер",
+         "PASSPORT"                    : "Паспорт",
+         "DIRECTIONS"                  : "Активные направления пользователя",
+         "NO_DIRECTIONS_YET"           : "У данного пользователя пока нет активных направлений.",
+         "USERS_COMMENTS"              : "Отзывы пользователей"
+      },
+      "PAGE_TRADING" : {
+         "PAGE_DEAL" : {
+            "DEAL"                     : "Сделка",
+            "DATE_AND_TIME_CREATED"    : "Дата и время создания",
+            "DAYS_SHORT"               : "д",
+            "HOURS_SHORT"              : "ч",
+            "MIN_SHORT"                : "мин",
+            "SEC_SHORT"                : "сек",
+            "TIME_PROCESSING"          : "Время обработки",
+            "COURSE"                   : "Курс обмена",
+            "DEAL_STATUS"              : "Статус сделки",
+            "READ_DEAL_DETAILS"        : "Ознакомьтесь с деталями сделки",
+            "INFO_ABOUT_BUYER"         : "Информация о покупателе",
+            "INFO_ABOUT_SELLER"        : "Информация о продавце",
+            "READ_PARTNER_DETAILS"     : "Ознакомьтесь с информацией о партнере сделки",
+            "CHAT_WITH_BUYER"          : "Чат с покупателем",
+            "CHAT_WITH_SELLER"         : "Чат с продавцом",
+            "CHAT_MANUAL"              : "Вы можете обмениваться сообщениями с парнетром по сделке",
+            "ADMIN_INV_TITLE"          : "Подтверждение вызова Администратора",
+            "ADMIN_INV_INFO"           : "Вы действительно хотите пригласить Администратора в чат? Отменить это действие будет невозможно.",
+            "TRANSACTION_SIGNING"      : "Подписание транзакции",
+            "I_GIVE"                   : "Я отдаю",
+            "FROM_WALLET"              : "С {{wallet}} кошелька",
+            "I_GET"                    : "Получаю",
+            "TO_WALLET"                : "На {{wallet}} кошелёк",
+            "TO_CARD"                  : "На карту",
+            "SERVICE_COMISSION"        : "Комиссия сервиса",
+            "CHAIN_COMISSION"          : "Комиссия сети",
+            "PRIVATE_KEY"              : "Приватный ключ от {{ticker}}-кошелька:",
+            "SIGN_BUTTON"              : "Подписать",
+            "UI_CHAT" : {
+               "KB"                    : "Кб",
+               "UPLODAING"             : "Загрузка",
+               "ATTACH_FILE"           : "Прикрепить файл",
+               "SEND_BUTTON"           : "Отправить"
+            },
+            "STATUSES" : {
+               "DEAL_LOG"              : "Лог событий сделки",
+               "YOU_CAN_SEE_LOG"       : "Вы можете посмотреть всю историю событий сделки ниже",
+               "INITIALIZED" : {
+                  "YOU"                : "Вы",
+                  "SENT_REQ_TO_SELLER" : "отправили заявку продавцу",
+                  "FOR_EXCHANGE"       : "на обмен",
+                  "FOR"                : "на",
+                  "SELLERS"            : "продавца",
+                  "SENT_REQUEST"       : "отправил заявку",
+                  "TO_YOU"             : "Вам",
+                  "FOR_YOUR"           : "на ваши"
+               },
+               "CREATED" : {
+                  "ACCEPTED_DEAL"      : "принял(а) сделку",
+                  "YOU"                : "Вы",
+                  "YOU_ACCEPTED"       : "приняли сделку"
+               },
+               "CANCELED" : {
+                  "DEAL_CANCELED"      : "Сделка была отменена"
+               },
+               "WAITING_CONFIRM" : {
+                  "SENT"               : "отправил(а)",
+                  "TO"                 : "на",
+                  "YOUR"               : "Ваш",
+                  "ACCOUNT"            : "счет",
+                  "YOU"                : "Вы",
+                  "YOU_SENT"           : "отправили",
+                  "TO_SELLERS_WALLET"  : "на счет продавца"
+               },
+               "WAITING_PARTNER_CONFIRM" : {
+                  "SENT"               : "отправил(а)",
+                  "TO"                 : "на",
+                  "YOUR"               : "Ваш",
+                  "ACCOUNT"            : "счет",
+                  "YOU"                : "Вы",
+                  "YOU_SENT"           : "отправили",
+                  "TO_BUYERS_WALLET"   : "на счет покупателя"
+               },
+               "CLOSED" : {
+                  "DEAL_CLOSED"        : "Сделка завершена",
+                  "OBSERVE_TRANSACTION": "Транзакцию вы можете просмотреть",
+                  "HERE"               : "здесь"
+               },
+               "OUTDATED" : {
+                  "DEAL_OUTDATED"      : "Сделка устарела"
+               }
+            }
+         },
+         "PAGE_DEAL_LIST" : {
+            "DEALS_TITLE"                       : "Сделки",
+            "NO_DEALS"                          : "Сделок не обнаружено",
+            "NO_DEALS_INFO"                     : "Здесь будут отображены все проведенные на сервисе Emporium операции",
+            "NEW"                               : "Новые",
+            "DEALS"                             : "сделок",
+            "NEW_DEALS_SEARCH_PLACEHOLDER"      : "Поиск новых сделок",
+            "GIVE"                              : "ОТДАЮ",
+            "GET"                               : "ПОЛУЧАЮ",
+            "PARTNER"                           : "ПАРТНЕР",
+            "COURSE"                            : "КУРС",
+            "PROCESSING"                        : "ОБРАБОТКА",
+            "STATUS"                            : "СТАТУС",
+            "CREATED_AT"                        : "ДАТА СОЗДАНИЯ",
+            "ACTIVE"                            : "Активные",
+            "ACTIVE_DEALS_SEARCH_PLACEHOLDER"   : "Поиск активных сделок",
+            "CLOSED"                            : "Завершенные",
+            "CLOSED_DEALS_SEARCH_PLACEHOLDER"   : "Поиск завершенных сделок"
+         }
+      }
+   }
+}

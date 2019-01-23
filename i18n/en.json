@@ -1,0 +1,964 @@
+{
+   "GLOBAL" : {
+      "CANCEL"    : "Cancel",
+      "CHECK"     : "Check",
+      "CONFIRM"   : "Confirm",
+      "CONTINUE"  : "Continue",
+      "DOWNLOAD"  : "Download",
+      "SAVE"      : "Save",
+      "ADD"       : "Add",
+      "OK"        : "OK",
+      "AUTH_IMPORTANT_TITLE" : {
+         "IMPORTANT"             : "It's important!",
+         "CHECK_ADDRESS_TO_BE"   : "Check the URL to be",
+         "SECURE_TITLE"          : "secure"
+      },
+      "UNKNOWN"   : "No information",
+     "TOASTERS": {
+       "ERROR": "Error!",
+       "SUCCESS": "Success!",
+       "WARNING": "Attention!"
+     }
+   },
+   "BREADCRUMBS" : {
+      "DASHBOARD"          : "Dashboard",
+      "MARKET" :
+      {
+         "MAIN"            : "Market",
+         "PAGE_2"          : "Purchase ",
+         "PAGE_3"          : "",
+         "PAGE_4"          : "New deal"
+      },
+      "DIRECTIONS" :
+      {
+         "MAIN"            : "Directions",
+         "PAGE_CREATE"     : "Create",
+         "PAGE_EDIT"       : "Edit"
+      },
+      "PAYMENTS"           : "Wallet",
+      "PROFILE"            : "Settings",
+      "PROFILE_USER"       : "Profile",
+      "DEALS" :
+      {
+         "MAIN"            : "Deals",
+         "DEAL_NUMBER"     : "Deal #"
+      },
+      "UI_KIT"             : "UI-kit"
+   },
+   "TABS" : {
+      "ACTIVE" : "Active deals",
+      "CLOSED" : "Closed deals",
+      "NEW"    : "New deals"
+   },
+   "TOOLTIPS" : {
+      "SETTINGS"              : "Settings",
+      "NOTIFICATIONS"         : "Notifications",
+      "PROFILE"               : "Profile",
+      "EDIT_SECTION"          : "Edit the section",
+      "ADD_NEW_CARD"          : "Add a new card",
+      "ADD_NEW_WALLET"        : "Add a new wallet",
+      "BALANCE_NOT_CONFIRMED" : "Unconfirmed balance",
+      "DELETE_WALLET"         : "Delete the wallet",
+      "ADD_WALLET"            : "Add a wallet",
+      "CARDS_CONTROL"         : "Card control",
+      "WALLET_CONTROL"        : "Wallet control",
+      "PAYMENT_CONTROL"       : "Payment system control",
+      "EDIT"                  : "Add",
+      "DELETE"                : "Delete"
+   },
+   "PLACEHOLDERS" : {
+      "EXAMPLE_MAIL"          : "example@email.com",
+      "CARD_HOLDER"           : "Ivanov Sergey",
+      "CARD_NAME"             : "For Bitcoin",
+      "PSA_NAME"              : "For Bitcoin",
+      "TEXT"                  : "Type a message",
+      "ADDITIONAL_INFO"       : "Type the additional information",
+      "WALLET_ADDRES"         : "Your wallet address",
+      "PUBLIC_KEY"            : "Your public key",
+      "KEY"                   : "3LVGbddKk3uKhqfGKz7X7n6dTZbEHE832y",
+      "DEFAULT_SEARCH"        : "Search  ",
+      "CHOOSE_WALLET"         : "Choose the wallet",
+      "CHOOSE_BANK"           : "Choose the bank",
+      "CHOOSE_TYPE"           : "Choose the payment type",
+      "CHOOSE_WALLET_ADDRES"  : "Choose the wallet address",
+      "CHOOSE_CARD"           : "Choose the card",
+      "CHOOSE_CURRENCY"       : "Choose the currency",
+      "CHOOSE_CRYPTO"         : "Choose the cryptocurrency",
+      "CHOOSE_PAYMENT"        : "Choose the payment system",
+      "TYPE_CRYPTO"           : "Cryptocurrency",
+      "TYPE_FIAT"             : "Fiat money",
+      "TYPE_BANKS"            : "Banks"
+
+   },
+   "UI_FOOTER" : {
+      "LANG_TITLE"   : "Language:",
+      "LANG_VALUE"   : "Russian",
+      "FAQ"          : "FAQ",
+      "TERMS_OF_USE" : "Terms of Use"
+   },
+   "UI_HEADER_MAIN" : {
+      "NOTIFICATIONS_HEADER" : "Notifications",
+      "INFO_BLOCK_LINK"      : "Go to",
+      "PROFILE_BUTTON"       : "Profile",
+      "LOGOUT_BUTTON"        : "Log out"
+   },
+   "UI_NAVBAR" : {
+      "EMPORIUM"        : "EMPORIUM",
+      "DASHBOARD_LINK"  : "Dashboard",
+      "MARKET_LINK"     : "Market",
+      "WALLET_LINK"     : "Wallet",
+      "DEALS_LINK"      : "Deals",
+      "DIRECTIONS_LINK" : "Directions",
+      "UI_KIT"          : "UI_KIT"
+   },
+   "UI_SEARCH" : {
+      "YOUR_REQUEST"    : "Your search request",
+      "NO_MATCH"        : "has no match.",
+      "CHANGE_SEARCH"   : "Please change the search params."
+   },
+   "UI_SELLER_INFO" : {
+      "ON_SITE_FROM"    : "On the website from",
+      "DEALS_AMOUNT"    : " deals",
+      "TRADE_VOLUME"    : "Total trade volume on the service in BTC",
+      "AVERAGE_RESPONSE_TIME" : {
+         "TITLE"        : "Average processing time",
+         "IF_UNKNOWN"   : "No information"
+      },
+      "LAST_DEAL_DATE"  : {
+         "TITLE"        : "The date of the last deal",
+         "IF_UNKNOWN"   : "No information",
+         "IF_NO_DEALS"  : "no deals"
+      },
+      "REVIEW_NULL"     : "no reviews"
+   },
+   "UI_CARD_TRADE" : {
+      "DAYS_SHORT"               : "d",
+      "HOURS_SHORT"              : "h",
+      "MIN_SHORT"                : "min",
+      "INITIALISED_SELLER"       : "New request",
+      "INITIALISED_BUYER"        : "The request was sent",
+      "CREATED"                  : "New deal",
+      "WAITING_CHAIN"            : "Waiting the chain",
+      "WAITING_SERVICE"          : "Waiting the service",
+      "WAITING_PAYMENT"          : "Waiting the payment",
+      "WAITING_CONFIRM"          : "Confirming",
+      "WAITING_PARTNER_PAYMENT"  : "Waiting the partner's payment",
+      "WAITING_PARTNER_CHAIN"    : "Waiting the partner's chain",
+      "WAITING_PARTNER_CONFIRM"  : "Confirming ",
+      "CANCELED"                 : "Canceled",
+      "CLOSED"                   : "Closed"
+   },
+   "UI_STATUS_A0" : {
+      "STEP_STATUS"      : "The request was sent",
+      "STEP_SELLER_SIDE" : "Waiting the confirmation from the seller {{sellerName}}",
+      "STATUS_INFO"      : "You have sent a request to the seller. The deal will be opened after the confirmation from the seller's side."
+   },
+   "UI_STATUS_A1" : {
+      "STEP_TITLE"      : "Step 1",
+      "STEP_STATUS"     : "Waiting for sending money",
+      "STEP_BUYER_SIDE" : "From the buyer's side {{buyerName}}",
+      "STATUS_INFO"     : "The buyer is sending money to your wallet now. As soon as the buyer send the funds - you will be redirected to the next step."
+   },
+   "UI_STATUS_A2" : {
+      "STEP_TITLE"       : "Step 2",
+      "STEP_SELLER_SIDE" : "Waiting a seller's confirmation about receiving money"
+   },
+   "UI_STATUS_A3" : {
+      "STEP_TITLE"                     : "Step 1",
+      "CARD_TRANSACTION_TITLE_BUYER"   : "Send to the card {{bankName}}",
+      "CARD_TRANSACTION_TITLE_SELLER"  : "Sending to the card {{bankName}}",
+      "SENDER_TITLE"                   : "Sender",
+      "RECEIVER_TITLE"                 : "Receiver",
+      "YOU_TITLE"                      : "(You)",
+      "TRANSACTION_COST_TITLE"         : "Transaction value:",
+      "STATUS_INFO_BUYER"              : "The seller has fulfilled all conditions, not it's your turn. Send funds to the seller's details and confirm the sending. Pay the attention, firstly, you need to send money, and then confirm it. If you don't send money, the deal will be canceled. Bank commision is not expected in the total amount.",
+      "STATUS_INFO_SELLER"             : "The buyer is sending funds to your payment details now. Check the payment and confirm the availability of funds in your account. If you have some problems - you can always contact the buyer in chat or open the dispute to solve the problem.",
+      "CONFIRM_TRANSFER_BUTTON"        : "Confirm sending money"
+   },
+   "UI_STATUS_A4" : {
+      "STEP_TITLE"            : "Step 2",
+      "STEP_SELLER_SIDE"      : "Waiting a seller's confirmation",
+      "CARD_GET_BANK_NAME"    : "About sending money to the card {{bankName}}",
+      "STEP_STATUS_INFO"      : "If you sent funds, wait to the seller's confirmation about receiving money. If something went wrong, you can always open the dispute and invite the service administrator to solve the problem."
+   },
+   "UI_STATUS_A5" : {
+      "STEP_TITLE"                  : "Step 5",
+      "WALLET_INFO"                 : "From the Emporium account to your wallet",
+      "FUNDS_SENT"                  : "the funds sent in the amount",
+      "WATCH_TRANSACTION_PROCESS"   : "You can watch the transaction process at ",
+      "EOSSCAN_LINK"                : "eosscan.io",
+      "STEP_STATUS_INFO"            : "The seller has confirmed receiving your funds, and money from our temporary wallet is sending to yours now. Rate the speed and quality of service the seller. If you have any questions, you can contact us by Telegram or by mail.",
+      "SET_RATE_BUTTON"             : "Understand. Rate it"
+   },
+   "UI_STATUS_B1" : {
+      "STEP_TITLE"                     : "Step 1",
+      "MAKE_TRANSACTION_TITLE"         : "Make a transaction to the account",
+      "BUYER_ACC_TITLE"                : "seller's account",
+      "SUMM_TITLE"                     : "Summ:",
+      "RECOMMENDED_COMMISSION_TITLE"   : "Recommended commission:",
+      "STEP_STATUS_INFO"               : "Send the cryptocurrency to the seller's account. The service comission is already added to the summ.",
+      "CONFIRM_TRANSFER_BUTTON"        : "Confirm sending funds"
+   },
+   "UI_STATUS_B2" : {
+      "STEP_TITLE"               : "Step 2",
+      "STEP_BUYER_SIDE"          : "Buyer sent funds to your cryptowallet",
+      "FROM_WALLET_TITLE"        : "Funds were sent from the wallet",
+      "STEP_STATUS_INFO"         : "Buyer sent funds to your payment details",
+      "CONFIRM_RECEIPT_BUTTON"   : "Confirm receiving funds"
+   },
+   "UI_STATUS_B4" : {
+      "STEP_TITLE"            : "Step 2",
+      "ACCEPT_RECEIPT_TITLE"  : "Confirm receiving funds from",
+      "SENDER_CARD_TITLE"     : "Sender card:",
+      "SENDER_NAME_TITLE"     : "Sender name:",
+      "SUMM_TITLE"            : "Summ:",
+      "STEP_STATUS_INFO"      : "The buyer is sending funds to your payment details now. Check the payment and confirm the availability of funds in your account. If you have some problems - you can always contact the buyer in chat or open the dispute to solve the problem.",
+      "ACCEPT_RECEIPT_BUTTON" : "Confirm receiving funds"
+   },
+   "UI_STATUS_C1" : {
+      "STEP_TITLE"                     : "Step 1",
+      "MAKE_TRANSACTION_TITLE"         : "Make a transaction to the account",
+      "ADDRESS_TITLE"                  : "address:",
+      "SUMM_TITLE"                     : "Summ:",
+      "RECOMMENDED_COMMISSION_TITLE"   : "Recommended commission:",
+      "STEP_STATUS_INFO"               : "Send the cryptocurrency to the seller's account and confirm the sending. The service comission is already added to the summ and will be charged in the amount of 1% from the seller.",
+      "CONFIRM_TRANSFER_BUTTON"        : "Confirm sending funds"
+   },
+   "UI_STATUS_C2" : {
+      "STEP_TITLE"                  : "Step 1",
+      "WAITING_FUNDS_FROM_BUYER"    : "Waiting funds from {{buyerName}} to your account.",
+      "BUYER_MADE_TRANSACTION"      : "Buyer {{buyerName}} made a transaction to the Emporium account",
+      "FUNDS_GOT_FROM_YOU"          : "Your funds were received to the Emporium account",
+      "WAITING_FOR_FUNDS_FROM_YOU"  : "Waiting funds from your side to be received the Emporium account",
+      "SELLER_MADE_TRANSACTION"     : "Seller {{sellerName}} made a transaction to the Emporium account",
+      "WAITING_FOR_SELLERS_FUNDS"   : "Waiting funds from {{sellerName}} to be received the Emporium account",
+      "SUMM_TITLE"                  : "Summ:",
+      "WALLET_TITLE"                : "To the wallet:",
+      "STEP_STATUS_INFO"            : "The buyer is sending funds now. As soon as he confirm sending money, you will check them at your wallet."
+   },
+   "UI_STATUS_C3" : {
+      "STEP_TITLE"            : "Step 2",
+      "TO_WALLET_TITLE"       : "From the {{buyerName}} account to your wallet",
+      "FUNDS_SENT_TITLE"      : "funds were sent in the amount ",
+      "FUNDS_SENT_TO"         : "Funds were sent to the wallet you mentioned: ",
+      "ACCEPT_RECEIPT_BUTTON" : "Confirm receiving funds"
+   },
+   "UI_STATUS_C4" : {
+      "STEP_TITLE"                  : "Step 2",
+      "WAITING_FOR_BUYERS_CONFIRM"  : "Waiting seller to confirm",
+      "FUNDS_GOT_TO"                : "Receiving funds to the wallet",
+      "STEP_STATUS_INFO"            : "If you sent funds, wait the confirmation about receiving money from the seller. If something went wrong - you can always open the dispute and invite the service administrator to solve the problem."
+   },
+   "UI_STATUS_CANCEL" : {
+      "STEP_TITLE"         : "The deal is canceled",
+      "STEP_STATUS_INFO"   : "The deal can be manually canceled by seller or buyer. And also on the expiry of the acceptance the request by seller."
+   },
+   "UI_STATUS_COMPLETE" : {
+      "STEP_TITLE"                  : "The deal is completed",
+      "WATCH_TRANSACTION_PROCESS"   : "You can watch the transaction process",
+      "HERE_TITLE"                  : "here",
+      "RATE_USER_TITLE"             : "Rate the user",
+      "YOUR_USERS_RATE"             : "Your users rate",
+      "RATE_BUTTON"                 : "Rate it"
+   },
+   "UI_STATUS_INIT" : {
+      "I_GIVE"                   : "I give:",
+      "MULTISIG_TITLE"           : "Multisig-wallet:",
+      "I_GET"                    : "I get:",
+      "WALLET_GET"               : "Receiving wallet:",
+      "CARD_GET"                 : "Receiving card:",
+      "CHAIN_FEE"                : "Chain fee:",
+      "SERVICE_FEE"              : "Service fee:",
+      "CHAIN_FEE_DEF_TITLE"      : "Chain fee",
+      "CHAIN_FEE_DEF"            : " is required to send any transaction amount. You pay the miner's fee to make the transaction at your {{tickerSell}}-wallet.",
+      "MORE_ABOUT_CHAIN_FEE_1"   : "Read more about chain fee",
+      "MORE_ABOUT_CHAIN_FEE_2"   : "you can",
+      "HERE_TITLE"               : "here"
+   },
+   "UI_STATUS_RATE" : {
+      "STEP_TITLE"      : "The deal is almost competed.",
+      "RATE_USER_TITLE" : "Rate the user",
+      "USER_TO_RATE"    : "AleseyMochis"
+   },
+   "AUTH" : {
+      "PAGE_BREAK" : {
+         "EMPORIUM"           : "EMPORIUM",
+         "TECH_WORKS_TITLE"   : "Technical work is being undertaking.",
+         "LEFT"               : "It is left",
+         "COPYRIGHT_EMPORIUM" : "Emporium"
+      },
+      "PAGE_LOGIN" : {
+         "UI_LOGIN" : {
+            "LOGIN_TITLE"           : "Log in",
+            "MAIL"                  : "E-mail",
+            "PASSWORD"              : "Password",
+            "REMEMBER_ME"           : "Remember me",
+            "FORGOT_PASSWORD"       : "Forgot your password?",
+            "NO_ACC"                : "Don't have the account?",
+            "REGISTRATION_BUTTON"   : "Sign up"
+         },
+         "UI_LOGIN_ROUTE" : {
+            "ENABLE_2FA_TITLE"   : "Will you enable 2FA?",
+            "2FA_INFO"           : "Two-factor authentication (2FA) is the users identification method by requesting authentication data two different types. It provides two-layer and therefore more effective protection of the account from unauthorized entry.",
+            "ENABLE_NOW"         : "I want to enable 2FA right now",
+            "SKIP"               : "Skip this step and enable 2FA later"
+         },
+         "UI_LOGIN_TWOFA" : {
+            "2FA_TITLE"          : "Two-factor authentication",
+            "ENTER_CODE_TITLE"   : "Enter the code from your 2FA application:",
+            "ENTER_WITH_RECOVERY": "Enter with help of recovery codes"
+         },
+         "UI_LOGIN_RECOVERY" : {
+            "2FA_TITLE"          : "Two-factor authentication",
+            "ENTER_ONE_RECOVERY" : "Enter one of the recovery codes:",
+            "ENTER_WITH_2FA"     : "Enter with help of 2FA-app"
+         },
+         "UI_LOGIN_TWOFA_CODES" : {
+            "2FA_TITLE"          : "2FA recovery codes ",
+            "2FA_INFO"           : "Recovery codes can be used, if you lost the access to your 2FA application and can't get the code.",
+            "2FA_LIST_TITLE"     : "Recovery codes:",
+            "DOWNLOAD_2FA_TITLE" : "Download recovery codes to your device untill you will get to your personal account.",
+            "DOWNLOAD_BUTTON"    : "Download"
+         },
+         "UI_LOGIN_TWOFA_ENABLE" : {
+            "2FA_TITLE_1"     : "Enable 2FA",
+            "2FA_TITLE_2"     : "Enable the two-factor authentication",
+            "INSTRUCTION_1"   : "Scan the QR-code with the 2FA-application using your phone. We recommend you the application ",
+            "INSTRUCTION_2"   : "After scaning the QR-code the application will give show the 6-digit code, which you must enter in the field below.",
+            "ENTER_CODE"      : "Enter the code:",
+            "ENABLE_BUTTON"   : "Enable"
+         }
+      },
+      "PAGE_PASSWORD_RESET" : {
+         "ENTER_NEW_PAS" : "New password",
+         "UI_PASSWORD_RESET" : {
+            "NEW_PAS"               : "New password",
+            "SYMBOLS_LIMIT"         : "At least 6 symbols",
+            "REPEAT_NEW_PAS"        : "Repeat the new password",
+            "PASSWORDS_DONT_MATCH"  : "Save"
+         }
+      },
+      "PAGE_PASSWORD_RESET_TWOFA" : {
+         "CONFIRM_2FA"        : "Conrifm 2FA",
+         "ENTER_NEW_PAS"      : "Enter the new password",
+         "UI_PASSWORD_RESET_TWOFA" : {
+            "ENTER_2FA_CODE"  : "Enter the code from your 2FA application:"
+         }
+      },
+      "PAGE_RECOVERY" : {
+         "FORGOT_PAS"         : "Forgot your password?",
+         "ENTER_EMAIL"        : "Enter the e-mail mentioned at the registration:",
+         "SEND_INSTRUCTION"   : "Send the instruction",
+         "REMEMBERED_PAS"     : "Remembered the password?",
+         "ENTER_SITE"         : "Enter the site"
+      },
+      "PAGE_REGISTRATION" : {
+         "UI_CONFIRM" : {
+            "THANKS"             : "Thanks!",
+            "SUCCESSFUL_REG"     : "You are successfully signed up!",
+            "THANK_INFO"         : "We sent the request to the e-mail you mentioned above. If you have any questions, you can contact us:",
+            "ENTER_SITE_BUTTON"  : "Enter the website"
+         },
+         "UI_REGISTRATION" : {
+            "REG_TITLE"             : "Sign up",
+            "MAIL"                  : "E-mail",
+            "INCORRECT_MAIL"        : "Incorrect E-mail",
+            "REQUIRED_FIELD"        : "Required field",
+            "NICK"                  : "Nickname",
+            "INCORRECT_NICK"        : "Incorrect nickname. Nickname should consist of characters: a-z A-Z 0-9. For example crypto.seller",
+            "SYMBOLS_LIMIT_NICK"    : "At least 3 symbols",
+            "NICK_ALREADY_EXISTS"   : "Nickname already exists",
+            "PAS"                   : "Password",
+            "SYMBOLS_LIMIT_PAS"     : "At least 6 symbols",
+            "REPEAT_PAS"            : "Repeat the password",
+            "PASSWORDS_DONT_MATCH"  : "Passwords don't match",
+            "CONTINUE_DESCR"        : "By entering «Continue» you agree to the conditions",
+            "TERMS_OF_USE"          : "Terms of Use",
+            "ALREADY_HAVE_ACC"      : "Already have an account?",
+            "ENTER_SITE"            : "Enter the website"
+         }
+      }
+   },
+   "HOME" : {
+      "PAGE_DASHBOARD" : {
+         "CONTROL_PANEL"   : "Control panel",
+         "RATING"          : "Rating",
+         "SOLD_TOTALLY"    : "Totally sold",
+         "LAST_DEAL_DATE"  : "The last deal was",
+         "DEALS_AMOUNT"    : "Deals amount",
+         "TABS" : {
+            "GIVE"         : "GIVE",
+            "GET"          : "GET",
+            "PARTNER"      : "PARTNER",
+            "COURSE"       : "COURSE",
+            "PROCESSING"   : "PROCESSING",
+            "STATUS"       : "STATUS",
+            "CREATED_AT"   : "DATE CREATED"
+         },
+         "NO_DEALS" : {
+            "TITLE"  : "No deals founded",
+            "INFO"   : "All operations performed on the Emporium service will be displayed here."
+         },
+         "EDIT" : {
+            "WALLET" : {
+               "EDIT"   : "Edit",
+               "WALLET" : "the wallet"
+            },
+            "BANK" : "Edit the card"
+         }
+      },
+      "PAGE_MARKET" : {
+         "PAGE_1_MARKET" : {
+            "MARKET_TITLE"          : "Market",
+            "AVAILABLE_ON_MARKET"   : "Available on the market",
+            "PURCHASES"             : "purchases",
+            "FOR_24_HOURS"          : "For last 24 hours at the amount",
+            "PEOPLE"                : "people",
+            "CURRENCY_CHOOSERS"     : "Currently choose",
+            "CRYPTOCURRENCY_TITLE"  : "Cryptocurrencies",
+            "CRYPTOCURRENCY_COUNT"  : "cryptocurrencies",
+            "SEARCH_PLACEHOLDER"    : "Search currencies",
+            "UI_MARKET_CARD" : {
+               "RUB"                : "RUB",
+               "AVAILABLE"          : "Available for purchases",
+               "PURCHASE_OPTIONS"   : "purchase options"
+            }
+         },
+         "PAGE_2_DIRECTION" : {
+            "UI_DIRECTION_CARD" : {
+               "FROM"         : "from",
+               "AVAILABLE"    : "Available",
+               "DIRECTIONS"   : "directions"
+            },
+            "PURCHASE"              : "Purchase",
+            "AVAILABLE_ON_MARKET"   : "Available on the market",
+            "PURCHASES"             : "purchases",
+            "FOR_24_HOURS"          : "For last 24 hours at the amount",
+            "PEOPLE"                : "people",
+            "CHOOSE"                : "Currently choose",
+            "CRYPTOCURRENCY_TITLE"  : "Cryptocurrencies",
+            "DIRECTIONS"            : "directions",
+            "CURRENSY_SEARCH"       : "Search the currency",
+            "BANK_SEARCH"           : "Search the bank"
+         },
+         "PAGE_3_OFFER" : {
+            "OFFERS"                : "Offers",
+            "AVAILABLE_ON_MARKET"   : "Available on the market",
+            "PURCHASES"             : "purchases",
+            "FOR_24_HOURS"          : "For last 24 hours at the amount",
+            "PEOPLE"                : "people",
+            "OFFERING"              : "Making an order",
+            "PURCHASE"              : "Purchase",
+            "WITH_HELP_OF"          : "for",
+            "CHOOSE_SELLER"         : "Choose a seller:",
+            "DIRECTIONS"            : "directions",
+            "SELLER_NAME"           : "SELLER'S NAME",
+            "RATING"                : "RATING",
+            "DEALS"                 : "DEALS",
+            "AWAITING"              : "AWAITING",
+            "LIMIT_FROM"            : "LIMIT (FROM)",
+            "LIMIT_TO"              : "LIMIT (TO)",
+            "COURSE"                : "EXCHANGE COURSE",
+            "UI_OFFER_CARD" : {
+               "DEALS"              : "deals",
+               "DAYS_SHORT"         : "d",
+               "HOURS_SHORT"        : "h",
+               "MIN_SHORT"          : "min",
+               "SEC_SHORT"          : "sec",
+               "UNKNOWN"            : "No information"
+            }
+         },
+         "PAGE_4_NEW_DEAL" : {
+            "NEW_DEAL"           : "A new deal",
+            "SELLER"             : "Seller",
+            "LIMITS"             : "Limits",
+            "COURSE"             : "Exchange course",
+            "DETERM_SUMM"        : "Choose the summ and the paying system",
+            "SPECIFY_AMMOUNT"    : "Select the summ for purchasing",
+            "SELLER_INFO"        : "Information about the seller and deal conditions",
+            "ADDING"             : "Adding the",
+            "CARD"               : "card",
+            "WALLET"             : "wallet",
+            "TRANSACTION_SIGN"   : "Signing the transaction",
+            "I_GIVE"             : "I give",
+            "FROM"               : "From",
+            "FROM_CARD"          : "From card",
+            "I_GET"              : "I get",
+            "ON"                 : "on",
+            "WALLET_2"           : "the wallet",
+            "SERVICE_COMISSION"  : "Service fee",
+            "CHAIN_FEE"          : "Chain fee",
+            "PRIVATE_KEY"        : "Private key from",
+            "SUBSCRIBE_BUTTON"   : "Sign",
+            "UI_DEAL_INFO" : {
+               "SELLERS_CONDITIONS"       : "Seller's conditions",
+               "SERVICE_WARRANTY"         : "Service guarantee",
+               "SERVICE_WARRANTY_DESCR"   : "Emporium  service guarantee you clear exchanges. There are not any hidden fees and additional collectings. All information about funds and fees correctly appears!",
+               "SECURITY"                 : "Security",
+               "SECURITY_DESCR"           : "Don't worry! All your funds are in the safety. We use the simple scheme that provides safekeeping your money. If you have any problems or questions, you can always open the dispute and solve the problem.",
+               "BANK_REQ"                 : "Banking details",
+               "BANK_REQ_DESCR"           : "We do not use your personal information and do not give it to the third parties. Everything that is connected to bank cards and the details remain only inside our service. For more information you can read",
+               "BANK_REQ_LINK"            : "Terms of Use",
+               "DISPUTE"                  : "Dispute",
+               "DISPUTE_DESCR"            : "Didn't like something? You can always open the dispute using the relevant icon in the chat. Service administrator will contact you, after opening the dispute, and solve all your problems."
+            },
+            "UI_DEAL_INIT" : {
+               "I_GIVE"                   : "I give:",
+               "INCORRECT"                : "Incorrect information",
+               "MIN"                      : "Minimum:",
+               "MAX"                      : "Maximum:",
+               "CRYPTO_GET"               : "The wallet to send funds:",
+               "CARD_GET"                 : "The card from which seller will wait the transfer",
+               "I_GET"                    : "I get:",
+               "WALLET_GET"               : "Receipt wallet:",
+               "CHAIN_FEE"                : "Chain fee",
+               "SERVICE_COMISSION"        : "Service fee:",
+               "CHAIN_COMISSION_TITLE"    : "Chain fee",
+               "CHAIN_COMISSION_DESCR_1"  : "is required to send any transaction amount.",
+               "CHAIN_COMISSION_DESCR_2"  : "You pay the chain fee to make the transaction completed on your {{tickerSell}}-wallet.",
+               "CHAIN_COMISSION_DESCR_3"  : "You can read more about the 'Chain fee'",
+               "HERE"                     : "here",
+               "CREATE_DEAL_BUTTON"       : "Create a deal",
+               "ITS_YOUR_OFFER"           : "That is how other users see your profile. You can't send the deal to yourself, otherwise it will break everything:{",
+               "OFFER_STOPPED"            : "This exchange offer is currently stopped."
+            }
+         },
+        "NO_DIRECTIONS": {
+          "TITLE"               : "Oops! You've gone too far ಠ_ಠ",
+          "TEXT_START"          : "By request",
+          "TEXT_END_SHORT"      : "nothing found",
+          "TEXT_END"            : "nothing found, return to ",
+          "MARKET"              : "market"
+        }
+      },
+      "PAGE_OFFER" : {
+         "PAGE_OFFER_CREATE" : {
+            "TITLE"  : "Directions",
+            "ADDING" : "Adding {{ticker}}"
+         },
+         "PAGE_OFFER_EDIT" : {
+            "TITLE"  : "Directions",
+            "ADDING" : "Adding {{ticker}}"
+         },
+         "PAGE_OFFER_LIST" : {
+            "TITLE"                       : "Directions",
+            "ACTIVE_DIRECTIONS"           : "Active directions",
+            "DIRECTIONS"                  : "directions",
+            "ACTIVE_DIRECTIONS_SEARCH"    : "Search active directions",
+            "CREATE_DIRECTION"            : "Create a direction",
+            "NO_DIRECTIONS"               : "No directions for purchases founded",
+            "MANUAL"                      : "Choose the direction to start trading",
+            "STOPPED_DIRECTIONS"          : "Stopped directions",
+            "STOPPED_DIRECTIONS_SEARCH"   : "Search stopped directions",
+            "UI_USER_OFFER_CARD" : {
+
+            }
+         },
+         "UI_STEPS" : {
+            "STEP_1" : {
+               "WHAT_TO_SELL" : "What will you sell?",
+               "INFO_1"       : "Choose the currency you would like to sell and your wallet to charge.",
+               "I_SELL"       : "I sell:",
+               "MSIG_ADDRES"  : "Multisig-wallet address:",
+               "MSIG_BALANCE" : "Multisig-wallet balance:",
+               "NO_MSIG_YET"  : "I don't have any multisig-wallet. Create it right now.",
+               "CREATE_MSIG"  : "Create"
+            },
+            "STEP_2" : {
+               "WHAT_TO_GET"  : "What will you get?",
+               "INFO_2"       : "Choose the currency you would like to get and details for receiving",
+               "TYPE"         : "Payment type:",
+               "MY_BANK"      : "My bank:",
+               "CARD"         : "Card:",
+               "CRYPTO"       : "Cryptocurrency:",
+               "ADDRES"       : "Wallet address:"
+            },
+            "STEP_3" : {
+               "DEAL_LIMITS"  : "Set transaction limits",
+               "INFO_3"       : "Set the minimum and maximum summ to accept the payment",
+               "MIN"          : "Minimum deal:",
+               "MAX"          : "Maximum deal:"
+            },
+            "STEP_4" : {
+               "COURSE"          : "Set the exchange course and margin percent",
+               "INFO_4"          : "You form your earnings from the transaction in this step. Choose the exchange course to trade with and a margin percent for each offer.",
+               "EXCHANGE"        : "Exchange:",
+               "EXCHANGE_COURSE" : "Exchange course for the pair:",
+               "PROCENT"         : "Margin percent (from each trade):",
+               "YOUR_COURSE"     : "Your course with extra charge:"
+            },
+            "STEP_5" : {
+               "INFO"         : "Additional information",
+               "INFO_INFO"    : "",
+               "INFO_TEXT"    : "Text of the information",
+               "READY_BUTTON" : "Ready"
+            },
+            "STEP_6" : {
+               "INFO_TITLE"         : "Information about your offer",
+               "INFO_INFO"          : "There is the ticket, which shows you the results of all completed steps",
+               "CHOOSEN_COURSE"     : "Choosen exchange course",
+               "YOUR_MARGE"         : "Your marge",
+               "COURSE_DIF"         : "the difference from the couse is",
+               "SERVICE_COMISSION"  : "Emporium service fee",
+               "BY_DEAL"            : "from the deal",
+               "YOU_GET"            : "You will get for",
+               "EDIT_BUTTON"        : "Edit"
+            }
+         }
+      },
+      "PAGE_PAYMENTS" : {
+         "PAGE_CREATE_MSIG" : {
+            "WALLET_CONTROL"           : "Wallet control",
+            "CREATE_MSIG_BUTTON"       : "Create a Multisig address",
+            "ADDITIONAL_INFO"          : "Additional information",
+            "CREATE_MSIG_TITLE"        : "Create the Multisig address",
+            "SELECT_METHOD"            : "Choose the method to create a Multisig-wallet",
+            "SELECT_1_OF_3"            : "Choose one of three ways to create the trading wallet",
+            "GENERATE_ADDRES"          : "Generate the address",
+            "GENERATE_ADDRES_INFO"     : "The service Сервис gives you the ability to generate an address {{coin}} to create the Multisig-wallet",
+            "GENERATE_BY_ALTER"        : "Generate by Alter.App",
+            "GENERATE_BY_ALTER_INFO"   : "If you have the browser extension Alter, you can generate the address with the extension and import it to the Emporium",
+            "USE_YOUR_PUBLIC_KEY"      : "Use your public key",
+            "USE_YOUR_ADDRES"          : "Use your address",
+            "USE_YOUR_PUBLIC_KEY_INFO" : "If you know what public and private keys are, this option is for you. You can import your wallet to Emporium service",
+            "USE_YOUR_ADDRES_INFO"     : "You can use your address to generate a Multisig-wallet.",
+            "WALLET_INFO"              : "Information about the wallet",
+            "SAVE_THIS_FOR_SURE"       : "Make sure to save the information",
+            "ENTER_YOUR_DATA"          : "Enter your data below",
+            "WALLET_ADDRESS"           : "Wallet address:",
+            "PUBLIC_KEY"               : "Public key:",
+            "PRIVATE_KEY"              : "Private key:",
+            "USE_ADDRES_TO_GENERATE"   : "Use the address to generate the Multisig-wallet",
+            "COIN_WALLET_ADDRES"       : "{{coin}}-wallet address:",
+            "COIN_PUBLIC_KEY"          : "{{coin}}-wallet public key:",
+            "MSIG_ADDRES"              : "Multisig address",
+            "EMPORIUM_ADDRES"          : "Emporium address:",
+            "YOUR_ADDRES"              : "Your address:",
+            "BALANCE"                  : "Balance",
+            "LOCKED"                   : "Locked for the withdrawal",
+            "TRANSACTIONS_AMOUNT"      : "Transactions amount",
+            "TRANSACTIONS_HISTORY"     : "Wallet transactions history",
+            "TRANSACTIONS" : {
+               "TITLE"                 : "Transactions",
+               "DATE"                  : "TRANSACTION DATE",
+               "TYPE"                  : "TYPE",
+               "ADDRES"                : "ADDRESS",
+               "HASH"                  : "HASH",
+               "SUMM"                  : "SUMM"
+            },
+            "CONFIRM_MSING_CREATION"   : "Confirm Multisig creation",
+            "CHECK_MSIG_CREATE_KEYS"   : "Check Multisig keys",
+            "COIN_PRIVATE_KEY"         : "Private key {{coin}}-wallet:",
+            "SUBSCRIBE_BUTTON"         : "Sign",
+            "SUBSCRIBE_TITLE"          : "Sign the withdrawal from Multisig",
+            "IMPORTANT_INFO_TITLE"     : "Imfortant information!",
+            "IMPORTANT_INFO_INFO"      : "We ask you to save all the information connected to Multisig wallet. If you lose the access to the wallet private key, we can't restore the access",
+
+            "UI_INPUT_OUTPUT" : {
+               "INPUT_TITLE"           : "Input funds",
+               "INPUT_INFO"            : "Input funds to the specified wallet",
+               "COIN_ADDRES"           : "Address to deposit {{coin}}:",
+               "COPY_BUTTON"           : "Copy",
+               "OUTPUT_TITLE"          : "Output funds",
+               "OUTPUT_INFO"           : "Output funds from the specified wallet",
+               "SUMM"                  : "Summ",
+               "CHAIN_FEE"             : "Miner fee:",
+               "SPECIFY_WALLET_NUMBER" : "Select the wallet number:",
+               "CREATE_TRANSACTION"    : "Create a transaction for the withdrawal"
+            },
+
+            "UI_TX_CARD" : {
+               "SENDING"               : "Sending",
+               "RECEIVING"             : "Receiving"
+            },
+
+            "UI_WITHDRAW_WALLETS" : {
+               "WALLETS_TITLE"                  : "wallets",
+               "WALLETS_INFO"                   : "Wallets list with its names",
+               "WALLET_NAME"                    : "Wallet name:",
+               "CHANGE"                         : "Change",
+               "WALLET_NUMBER"                  : "Wallet number",
+               "NEW_WALLET_NAME"                : "New wallet name:",
+               "NEW_WALLET_PLACEHOLDER"         : "Additional",
+               "ADDING_NEW_WALLET"              : "Adding the new wallet:",
+               "ADDING_NEW_WALLET_PLACEHOLDER"  : "Add the {{coin}} wallet address",
+               "INCORRECT_ADDRES"               : "Incorrect address"
+            }
+         },
+         "PAGE_PAYMENT_LIST" : {
+            "PAGE_TITLE"                  : "Wallet",
+            "CRYPTO"                      : "Cryptocurrencies",
+            "WALLET"                      : "wallet",
+            "CRYPTO_SEARCH_PLACEHOLDER"   : "Search cryptocurrencies",
+            "BANK_CARDS_TITLE"            : "Bank cards",
+            "BANK_CARDS"                  : "cards",
+            "BANK_SEARCH_PLACEHOLDER"     : "Search bank cards",
+            "ADD_NEW_CARD"                : "Add new card",
+            "PAYMENTS_TITLE"              : "Payment systems",
+            "PAYMENTS"                    : "payment systems",
+            "PAYMENTS_SEARCH_PLACEHOLDER" : "Search payment systems",
+            "ADD_NEW_PAYMENT"             : "Add new payment system",
+            "CARD_EDITING"                : "Card editing",
+            "CARD_ADDING"                 : "Card adding",
+            "PAYMENT_ADDING"              : "Payment system adding",
+            "PAYMENT_EDITING"             : "Payment system editing"
+         },
+         "UI_ADD_BANK" : {
+            "CARD_NAME"          : "Card name:",
+            "OWNER"              : "Owner:",
+            "CARD_NUMBER"        : "Card number:",
+            "BANK"               : "Bank:",
+            "CURRENCY"           : "Card currency:"
+
+         },
+         "UI_ADD_CRYPTO" : {
+            "CRYPTO"             : "Cryptocurrency:",
+            "WALLET_ADDRES"      : "Wallet address:",
+            "INCORRECT_ADDRES"   : "Incorrect address"
+         },
+         "UI_ADD_PAYMENT" : {
+            "CHOOSE_PAYMENT"     : "Choose the payment system:",
+            "CHOOSE_WALLET"      : "Choose the currency:"
+         },
+         "UI_CARD_BANK" : {
+            "CARDS"              : "cards",
+            "CURRENCIES"         : "Currencies:"
+         },
+         "UI_CARD_CRYPTO" : {
+
+         },
+         "UI_CARD_PAYMENT" : {
+           "ACCOUNTS": {
+             "ONE"              : "account",
+             "OTHER"            : "accounts"
+           },
+           "CURRENCIES"         : "Currencies:"
+         },
+         "UI_EDIT_BANK" : {
+            "ADD_NEW_CARD"       : "Add a new card",
+            "CARD_NAME"          : "Card name:",
+            "CARD_HOLDER_NAME"   : "Card holder name:",
+            "CARD_NUMBER"        : "Card number:",
+            "CURRENCY"           : "Currency:"
+         },
+         "UI_EDIT_CRYPTO" : {
+            "WALLET_ADDRES"      : "Wallet address:",
+            "BALANCE"            : "Balance:",
+            "ADD_WALLET_ADDRES"  : "Add the wallet address:"
+         },
+         "UI_EDIT_PAYMENT" : {
+            "ADD_NEW_ACC"        : "Add the new account",
+            "ACC"                : "Account",
+            "CURRENCY_CHOOSE"    : "Choose the currency:",
+            "ACC_NAME"           : "Account name"
+         }
+      },
+      "PAGE_PROFILE" : {
+         "SETTINGS"                    : "Settings",
+         "ACC_TITLE"                   : "Account",
+         "ACC_INFO"                    : "You can change your e-mail and password here. It is not possible to change your login, that is your unique identifier.",
+         "USERNAME"                    : "Username:",
+         "MAIL"                        : "E-mail:",
+         "BUTTON_CHANGE"               : "Change",
+         "PASSWORD"                    : "Password:",
+         "2FA_TITLE"                   : "2FA",
+         "2FA_INFO_1"                  : "You can switch off the 2FA authentication here.",
+         "ATTENTION"                   : "Attention!",
+         "2FA_INFO_2"                  : "If you switch off the 2FA, your account safety may be at risk!",
+         "STATUS"                      : "Status:",
+         "ENABLED"                     : "Enabled",
+         "DISABLED"                    : "Disabled",
+         "DISABLE_BUTTON"              : "Disable",
+         "CODES_BUTTON"                : "Codes",
+         "ENABLE_BUTTON"               : "Enable",
+         "SAFETY_TITLE"                : "Safety",
+         "SAFETY_INFO"                 : "You can see the history of logging in from different devices. If it seems that the one device is unknown, just finish its session and change the password",
+         "OS"                          : "OS",
+         "TIME"                        : "Time",
+         "LOCATION"                    : "Location",
+         "BROWSER"                     : "Browser",
+         "CLOSE_SESSION_BUTTON"        : "Close the session",
+         "NOTIFICATIONS_TITLE"         : "Notifications",
+         "NOTIFICATIONS_INFO"          : "We will always notify you about any important changes and themes of other notifications you can choose by yourself.",
+         "SYSTEM"                      : "System",
+         "APP"                         : "App",
+         "EMAIL"                       : "Email",
+         "PUSH"                        : "Push",
+         "REPORT_LOGIN"                : "Report about login the system",
+         "TRADING"                     : "Trading course",
+         "REPORT_NEW_OFFERS"           : "Report about new offers to trade in",
+         "REPORT_STATUS_CHANGE"        : "Report about changing the deal status",
+         "REPORT_NEW_MESSAGES"         : "Report about new messages in deals",
+         "REPORT_2FA_STATUS_CHANGE"    : "Report about changes in the 2FA status",
+         "REPORT_EMAIL_CHANGE"         : "Report about changing the email",
+         "REPORT_PASSWORD_CHANGE"      : "Report about changing the password",
+         "EDIT_PASSWORD"               : "Edit the password",
+         "EDIT_MAIL"                   : "Edit the email",
+         "2FA_CODES_TITLE"             : "Recovery codes 2FA",
+         "ENABLE_2FA"                  : "Enable 2FA",
+         "2FA_CODES"                   : "Recovery codes 2FA",
+         "DISABLE_2FA"                 : "Disable 2FA",
+         "UI_CHANGE_EMAIL" : {
+            "CURRENT_PASSWORD"         : "Current password",
+            "NEW_MAIL"                 : "New e-mail",
+            "INCORRECT_EMAIL"          : "Incorrect email"
+         },
+         "UI_CHANGE_PASS" : {
+            "CURRENT_PASSWORD"         : "Current password",
+            "NEW_PASSWORD"             : "New password",
+            "SYMBOLS_MINIMAL_LIMIT"    : "At least 6 symbols",
+            "REPEAT_NEW_PASSWORD"      : "Repeat the new password",
+            "PASSWORDS_DONT_MATCH"     : "Passwords don't match"
+         },
+         "UI_2FA_CODES" : {
+            "MANUAL"                   : "Recovery codes can be used, if you lost the access to your 2FA application and can't get the code.",
+            "CODES_TITLE"              : "Recovery codes:",
+            "DOWNLOAD_CODES"           : "Download recovery codes to your device untill you will get to your personal account.",
+            "DOWNLODAL_BUTTON"         : "Download"
+         },
+         "UI_2FA_DISABLE" : {
+            "ENTER_CODE"               : "Enter the code from your 2FA application:",
+            "DISABLE_BUTTON"           : "Disable"
+         },
+         "UI_2FA_ENABLE" : {
+            "ENABLE_2FA_TITLE"         : "Enable the two-factor authentication",
+            "MANUAL_1"                 : "Scan the QR-code with the 2FA-application using your phone. We recommend you the application",
+            "AUTHY_LINK"               : "Authy",
+            "MANUAL_2"                 : "After scaning the QR-code the application will give show the 6-digit code, which you must enter in the field below.",
+            "ENTER_CODE_BELOW"         : "Enter the code below:",
+            "ENABLE_BUTTON"            : "Enable"
+         }
+      },
+      "PAGE_USER_PROFILE" : {
+         "PROFILE"                     : "Profile",
+         "ON_SITE_FROM"                : "On site from",
+         "SUPORTED_CURRENCIES"         : "Supported currencies:",
+         "EMPTY"                       : "Still empty",
+         "NAME"                        : "First name",
+         "LAST_NAME"                   : "Last name",
+         "SAVE_CHANGINGS"              : "Save changings",
+         "RATING"                      : "Rating",
+         "DEALS_AMMOUNT"               : "Deals ammount",
+         "COMMENTS"                    : "Comments",
+         "USER_INFO"                   : "User information",
+         "BTC_TRADE_VOLUME"            : "Total BTC trade volume",
+         "REACTION_RATE"               : "Average responce time",
+         "SECONDS"                     : "seconds",
+         "LAST_DEAL_DATE"              : "Last deal date",
+         "EMAIl"                       : "E-mail",
+         "CONFIRMED"                   : "Confirmed",
+         "NOT_CONFIRMED"               : "Not confirmed",
+         "MOBILE_NUMBER"               : "Mobile number",
+         "PASSPORT"                    : "Passport",
+         "DIRECTIONS"                  : "Active user directions",
+         "NO_DIRECTIONS_YET"           : "This user has no active directions yet.",
+         "USERS_COMMENTS"              : "Users comments"
+      },
+      "PAGE_TRADING" : {
+         "PAGE_DEAL" : {
+            "DEAL"                     : "Deal",
+            "DATE_AND_TIME_CREATED"    : "Date and time created",
+            "DAYS_SHORT"               : "d",
+            "HOURS_SHORT"              : "h",
+            "MIN_SHORT"                : "min",
+            "SEC_SHORT"                : "sec",
+            "TIME_PROCESSING"          : "Processing time",
+            "COURSE"                   : "Exchange course",
+            "DEAL_STATUS"              : "Deal status",
+            "READ_DEAL_DETAILS"        : "Read the deal information",
+            "INFO_ABOUT_BUYER"         : "Information about buyer",
+            "INFO_ABOUT_SELLER"        : "Information about seller",
+            "READ_PARTNER_DETAILS"     : "Read the information about the deal partner",
+            "CHAT_WITH_BUYER"          : "Chat with buyer",
+            "CHAT_WITH_SELLER"         : "Chat with seller",
+            "CHAT_MANUAL"              : "You can chat with your deal partner here",
+            "ADMIN_INV_TITLE"          : "Confirmation of the Administrator's invitation",
+            "ADMIN_INV_INFO"           : "Are you sure you want to invite an Administrator? It will not be possible to cancel this action.",
+            "TRANSACTION_SIGNING"      : "Signing the transaction",
+            "I_GIVE"                   : "I give",
+            "FROM_WALLET"              : "From the {{wallet}} wallet",
+            "I_GET"                    : "I get",
+            "TO_WALLET"                : "To the {{wallet}} wallet",
+            "TO_CARD"                  : "To the card",
+            "SERVICE_COMISSION"        : "Service fee",
+            "CHAIN_COMISSION"          : "Chain fee",
+            "PRIVATE_KEY"              : "Private key from {{ticker}}-wallet:",
+            "SIGN_BUTTON"              : "Sign",
+
+            "UI_CHAT" : {
+               "KB"                    : "KB",
+               "UPLODAING"             : "Uploading",
+               "ATTACH_FILE"           : "Attach the file",
+               "SEND_BUTTON"           : "Send"
+            },
+            "STATUSES" : {
+               "DEAL_LOG"              : "The deal's event log",
+               "YOU_CAN_SEE_LOG"       : "You can see the full transaction history below",
+               "INITIALIZED" : {
+                  "YOU"                : "You",
+                  "SENT_REQ_TO_SELLER" : "sent a request to the seller",
+                  "FOR_EXCHANGE"       : "to exchange",
+                  "FOR"                : "for",
+                  "SELLERS"            : "seller's",
+                  "SENT_REQUEST"       : "sent a request",
+                  "TO_YOU"             : "to you",
+                  "FOR_YOUR"           : "for your"
+               },
+               "CREATED" : {
+                  "ACCEPTED_DEAL"      : "accepted the deal",
+                  "YOU"                : "You",
+                  "YOU_ACCEPTED"       : "accepted the deal"
+               },
+               "CANCELED" : {
+                  "DEAL_CANCELED"      : "The deal was canceled"
+               },
+               "WAITING_CONFIRM" : {
+                  "SENT"               : "sent",
+                  "TO"                 : "to",
+                  "YOUR"               : "your",
+                  "ACCOUNT"            : "account",
+                  "YOU"                : "You",
+                  "YOU_SENT"           : "sent",
+                  "TO_SELLERS_WALLET"  : "to the seller's account"
+               },
+               "WAITING_PARTNER_CONFIRM" : {
+                  "SENT"               : "sent",
+                  "TO"                 : "to",
+                  "YOUR"               : "your",
+                  "ACCOUNT"            : "account",
+                  "YOU"                : "You",
+                  "YOU_SENT"           : "sent",
+                  "TO_BUYERS_WALLET"   : "to the buyer's account"
+               },
+               "CLOSED" : {
+                  "DEAL_CLOSED"        : "The deal was finished successfully",
+                  "OBSERVE_TRANSACTION": "You can observe the transaction",
+                  "HERE"               : "here"
+               },
+               "OUTDATED" : {
+                  "DEAL_OUTDATED"      : "The deal was outdated"
+               }
+            }
+         },
+         "PAGE_DEAL_LIST" : {
+            "DEALS_TITLE"                       : "Deals",
+            "NO_DEALS"                          : "No deals founded",
+            "NO_DEALS_INFO"                     : "All operations performed on the Emporium service will be displayed here.",
+            "NEW"                               : "New",
+            "DEALS"                             : "deals",
+            "NEW_DEALS_SEARCH_PLACEHOLDER"      : "Search new deals",
+            "GIVE"                              : "GIVE",
+            "GET"                               : "GET",
+            "PARTNER"                           : "PARTNER",
+            "COURSE"                            : "COURSE",
+            "PROCESSING"                        : "PROCESSING",
+            "STATUS"                            : "STATUS",
+            "CREATED_AT"                        : "DATE CREATED",
+            "ACTIVE"                            : "Active",
+            "ACTIVE_DEALS_SEARCH_PLACEHOLDER"   : "Search active deals",
+            "CLOSED"                            : "Closed",
+            "CLOSED_DEALS_SEARCH_PLACEHOLDER"   : "Search closed deals"
+         }
+      }
+   }
+}
