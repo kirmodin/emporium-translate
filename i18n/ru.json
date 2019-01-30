@@ -67,7 +67,7 @@
       "DELETE"                : "Удалить"
    },
    "PLACEHOLDERS" : {
-      "EXAMPLE_MAIL"          : "example@email.com",
+      "EXAMPLE_MAIL"          : "satoshi@email.com",
       "CARD_HOLDER"           : "Иванов Сергей",
       "CARD_NAME"             : "Для биткоина",
       "PSA_NAME"              : "Для биткоина",
