@@ -488,6 +488,7 @@
             "WALLET_2"           : "кошелёк",
             "SERVICE_COMISSION"  : "Комиссия сервиса",
             "CHAIN_COMISSION"    : "Комиссия сети",
+            "CHAIN_FEE"          : "Комиссия сети",
             "PRIVATE_KEY"        : "Приватный ключ от",
             "SUBSCRIBE_BUTTON"   : "Подписать",
             "UI_DEAL_INFO" : {
