@@ -31,7 +31,7 @@
       },
       "DIRECTIONS" :
       {
-         "MAIN"            : "Направления",
+         "MAIN"            : "Мои объявления",
          "PAGE_CREATE"     : "Создание",
          "PAGE_EDIT"       : "Редактирование"
       },
@@ -108,7 +108,7 @@
       "MARKET_LINK"     : "Маркет",
       "WALLET_LINK"     : "Кошельки",
       "DEALS_LINK"      : "Сделки",
-      "DIRECTIONS_LINK" : "Направления",
+      "DIRECTIONS_LINK" : "Мои объявления",
       "UI_KIT"          : "UI_KIT"
    },
    "UI_SEARCH" : {
@@ -534,23 +534,23 @@
       },
       "PAGE_OFFER" : {
          "PAGE_OFFER_CREATE" : {
-            "TITLE"  : "Направления",
+            "TITLE"  : "Объявления",
             "ADDING" : "Добавление {{ticker}}"
          },
          "PAGE_OFFER_EDIT" : {
-            "TITLE"  : "Направления",
+            "TITLE"  : "Объявления",
             "ADDING" : "Добавление {{ticker}}"
          },
          "PAGE_OFFER_LIST" : {
-            "TITLE"                       : "Направления",
+            "TITLE"                       : "Мои объявления",
             "ACTIVE_DIRECTIONS"           : "Активные направления",
-            "DIRECTIONS"                  : "направлений",
+            "DIRECTIONS"                  : "объявлений",
             "ACTIVE_DIRECTIONS_SEARCH"    : "Поиск активных направлений",
-            "CREATE_DIRECTION"            : "Создать направление",
-            "NO_DIRECTIONS"               : "Направлений для торговли не найдено",
-            "MANUAL"                      : "Для того чтобы начать торговлю, создайте направление",
-            "STOPPED_DIRECTIONS"          : "Приостановленные направления",
-            "STOPPED_DIRECTIONS_SEARCH"   : "Поиск приостановленных направлений",
+            "CREATE_DIRECTION"            : "Создать объявление",
+            "NO_DIRECTIONS"               : "Объявлений о продаже не найдено",
+            "MANUAL"                      : "Для того чтобы начать торговлю, создайте объявление",
+            "STOPPED_DIRECTIONS"          : "Приостановленные объявления",
+            "STOPPED_DIRECTIONS_SEARCH"   : "Поиск приостановленных объявлений",
             "UI_USER_OFFER_CARD" : {
 
             }
@@ -853,7 +853,7 @@
          "NOT_CONFIRMED"               : "Не подтвержден",
          "MOBILE_NUMBER"               : "Мобильный номер",
          "PASSPORT"                    : "Паспорт",
-         "DIRECTIONS"                  : "Активные направления пользователя",
+         "DIRECTIONS"                  : "Активные объявления пользователя",
          "NO_DIRECTIONS_YET"           : "У данного пользователя пока нет активных направлений.",
          "USERS_COMMENTS"              : "Отзывы пользователей"
       },
