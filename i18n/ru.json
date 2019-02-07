@@ -108,7 +108,7 @@
       "MARKET_LINK"     : "Маркет",
       "WALLET_LINK"     : "Кошельки",
       "DEALS_LINK"      : "Сделки",
-      "DIRECTIONS_LINK" : "Мои объявления",
+      "DIRECTIONS_LINK" : "Объявления",
       "UI_KIT"          : "UI_KIT"
    },
    "UI_SEARCH" : {
@@ -543,9 +543,9 @@
          },
          "PAGE_OFFER_LIST" : {
             "TITLE"                       : "Мои объявления",
-            "ACTIVE_DIRECTIONS"           : "Активные направления",
+            "ACTIVE_DIRECTIONS"           : "Активные объявления",
             "DIRECTIONS"                  : "объявлений",
-            "ACTIVE_DIRECTIONS_SEARCH"    : "Поиск активных направлений",
+            "ACTIVE_DIRECTIONS_SEARCH"    : "Поиск активных объявления",
             "CREATE_DIRECTION"            : "Создать объявление",
             "NO_DIRECTIONS"               : "Объявлений о продаже не найдено",
             "MANUAL"                      : "Для того чтобы начать торговлю, создайте объявление",
